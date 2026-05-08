@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DARK THEME: Deep & Focused -->
+    <!-- Uses deep navy instead of pure black to prevent OLED smearing -->
+    <style name="Theme.NallaNudi" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Brand Colors (slightly brighter for dark bg visibility) -->
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/dark_background</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/dark_background</item>
+
+        <!-- Backgrounds: Deep navy/charcoal, NOT pure black -->
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="android:colorBackground">@color/dark_background</item>
+
+        <!-- Typography: High contrast white/grey -->
+        <item name="android:textColorPrimary">@color/dark_text_primary</item>
+        <item name="android:textColorSecondary">@color/dark_text_secondary</item>
+
+        <!-- Status Bar: Matches background -->
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

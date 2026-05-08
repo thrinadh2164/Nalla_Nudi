@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============================================ -->
+    <!--         NALLA-NUDI DESIGN SYSTEM             -->
+    <!--         Semantic Color Tokens                -->
+    <!-- ============================================ -->
+
+    <!-- Brand Colors (Shared across themes) -->
+    <color name="primary">#3B82F6</color>
+    <color name="primary_dark">#2563EB</color>
+    <color name="primary_light">#DBEAFE</color>
+    <color name="secondary">#0D9488</color> <!-- Soft teal for Kannada secondary text -->
+    <color name="accent">#F59E0B</color>
+    <color name="error">#EF4444</color>
+
+    <!-- Light Theme Palette (Material 3 style) -->
+    <color name="light_background">#F8F9FA</color> <!-- Very light grey / off-white -->
+    <color name="light_surface">#FFFFFF</color> <!-- Clean white cards -->
+    <color name="light_text_primary">#202124</color> <!-- Deep charcoal for high contrast -->
+    <color name="light_text_secondary">#5F6368</color> <!-- Accessible grey -->
+    <color name="light_border">#DADCE0</color> <!-- Subtle light grey border -->
+    <color name="light_text_disabled">#9AA0A6</color>
+
+    <!-- Dark Theme Palette -->
+    <color name="dark_background">#0F172A</color>
+    <color name="dark_surface">#1E293B</color>
+    <color name="dark_text_primary">#F8FAFC</color>
+    <color name="dark_text_secondary">#94A3B8</color>
+    <color name="dark_border">#334155</color>
+    <color name="dark_primary">#60A5FA</color>
+    <color name="dark_text_disabled">#475569</color>
+
+    <!-- Legacy aliases (for existing references) -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_50">#F8F9FA</color>
+    <color name="gray_100">#F1F3F4</color>
+    <color name="gray_200">#E8EAED</color>
+    <color name="gray_600">#80868B</color>
+    <color name="gray_800">#3C4043</color>
+    <color name="gray_900">#202124</color>
+    <color name="divider">#DADCE0</color>
+    <color name="text_primary">#202124</color>
+    <color name="text_secondary">#5F6368</color>
+
+    <!-- Subject Badges -->
+    <color name="science_bg">#10B981</color>
+    <color name="math_bg">#8B5CF6</color>
+    <color name="commerce_bg">#6366F1</color>
+</resources>

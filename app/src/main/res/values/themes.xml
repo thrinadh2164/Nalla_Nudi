@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LIGHT THEME: Clean & Airy -->
+    <style name="Theme.NallaNudi" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Brand Colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Backgrounds -->
+        <item name="android:windowBackground">@color/light_background</item>
+        <item name="android:colorBackground">@color/light_background</item>
+
+        <!-- Typography -->
+        <item name="android:textColorPrimary">@color/light_text_primary</item>
+        <item name="android:textColorSecondary">@color/light_text_secondary</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/light_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
