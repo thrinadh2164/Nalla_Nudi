@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nalla-Nudi | Technical Dictionary App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #ec4899;
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --text: #f8fafc;
+            --text-dim: #94a3b8;
+            --accent: #10b981;
+            --glass: rgba(255, 255, 255, 0.05);
+            --border: rgba(255, 255, 255, 0.1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .background-blobs {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            filter: blur(120px);
+            opacity: 0.3;
+        }
+
+        .blob-1 { position: absolute; top: -10%; left: -10%; width: 50%; height: 50%; background: var(--primary); border-radius: 50%; }
+        .blob-2 { position: absolute; bottom: -10%; right: -10%; width: 50%; height: 50%; background: var(--secondary); border-radius: 50%; }
+
+        .navbar {
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 100px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 60px;
+            align-items: center;
+            padding-top: 40px;
+        }
+
+        .hero-content { text-align: left; animation: slideInLeft 0.8s ease-out; }
+        @keyframes slideInLeft { from { opacity: 0; transform: translateX(-50px); } to { opacity: 1; transform: translateX(0); } }
+
+        .hero h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 5rem;
+            line-height: 1.1;
+            font-weight: 800;
+            margin-bottom: 24px;
+            background: linear-gradient(to right, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p { font-size: 1.25rem; color: var(--text-dim); margin-bottom: 40px; max-width: 550px; }
+
+        .hero-image { position: relative; animation: slideInRight 0.8s ease-out; }
+        @keyframes slideInRight { from { opacity: 0; transform: translateX(50px); } to { opacity: 1; transform: translateX(0); } }
+
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 40px;
+            transform: rotate(-5deg);
+            box-shadow: 0 50px 100px -20px rgba(0,0,0,0.5);
+            transition: transform 0.5s ease;
+        }
+
+        .hero-image:hover img { transform: rotate(0deg) scale(1.05); }
+
+        .actions { display: flex; gap: 20px; }
+
+        .btn {
+            padding: 18px 36px;
+            border-radius: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.1rem;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(99, 102, 241, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--glass);
+            color: white;
+            border: 1px solid var(--border);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover { background: rgba(255, 255, 255, 0.1); transform: translateY(-5px); }
+
+        .features { text-align: center; }
+        .section-tag { color: var(--secondary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; margin-bottom: 12px; display: block; }
+        .section-title { font-family: 'Outfit', sans-serif; font-size: 3rem; margin-bottom: 60px; }
+
+        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .feature-card {
+            background: var(--glass);
+            padding: 40px;
+            border-radius: 30px;
+            border: 1px solid var(--border);
+            text-align: left;
+            transition: all 0.4s ease;
+        }
+
+        .feature-card:hover { border-color: var(--primary); background: rgba(255,255,255,0.08); transform: translateY(-10px); }
+
+        .icon-box {
+            width: 60px;
+            height: 60px;
+            background: var(--primary-dark);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            color: white;
+        }
+
+        .feature-card h3 { font-family: 'Outfit', sans-serif; font-size: 1.5rem; margin-bottom: 16px; color: white; }
+        .feature-card p { color: var(--text-dim); }
+
+        .gallery-container { display: flex; gap: 20px; overflow-x: auto; padding: 20px; scrollbar-width: none; -ms-overflow-style: none; }
+        .gallery-container::-webkit-scrollbar { display: none; }
+        .gallery-container img { height: 450px; border-radius: 30px; border: 1px solid var(--border); transition: transform 0.3s ease; }
+        .gallery-container img:hover { transform: scale(1.05); }
+
+        .stats { display: flex; justify-content: space-around; padding: 60px; background: var(--glass); border-radius: 40px; border: 1px solid var(--border); margin-top: 50px; }
+        .stat-item h2 { font-family: 'Outfit', sans-serif; font-size: 3rem; color: var(--accent); }
+        .stat-item p { color: var(--text-dim); font-weight: 600; }
+
+        footer { padding: 60px 20px; text-align: center; border-top: 1px solid var(--border); color: var(--text-dim); margin-top: 50px; }
+
+        @media (max-width: 968px) {
+            .hero { grid-template-columns: 1fr; text-align: center; }
+            .hero-content { text-align: center; }
+            .hero h1 { font-size: 3.5rem; }
+            .hero p { margin: 0 auto 40px; }
+            .actions { justify-content: center; }
+            .features-grid { grid-template-columns: 1fr; }
+            .stats { flex-direction: column; gap: 40px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob-1"></div>
+        <div class="blob-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <a href="#" class="logo">Nalla-Nudi</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Learn Technical English with Ease.</h1>
+            <p>Nalla-Nudi is a bridge dictionary for rural students, providing subject-specific technical terms in both simple Kannada and English.</p>
+            
+            <div class="actions">
+                <a href="https://github.com/thrinadh2164/Nalla_Nudi/releases/latest" class="btn btn-primary">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                    </svg>
+                    Download APK
+                </a>
+                <a href="#gallery" class="btn btn-secondary">App Gallery</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="assets/Screenshot_20260512_111507.png" alt="App Screenshot">
+        </div>
+    </section>
+
+    <section id="gallery" class="features" style="padding-top: 0; position: relative;">
+        <span class="section-tag">Visual Tour</span>
+        <h2 class="section-title">Live App Screenshots</h2>
+        
+        <div style="position: relative; max-width: 1000px; margin: 0 auto;">
+            <button aria-label="Previous Image" onclick="document.getElementById('gallery-slider').scrollBy({left: -300, behavior: 'smooth'})" 
+                style="position: absolute; left: -30px; top: 50%; transform: translateY(-50%); z-index: 10; background: var(--primary); color: white; border: none; width: 50px; height: 50px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+                <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+            </button>
+
+            <div id="gallery-slider" class="gallery-container">
+                <img src="assets/Screenshot_20260512_111355.png" alt="Nalla-Nudi Dashboard">
+                <img src="assets/Screenshot_20260512_111518.png" alt="Search Results Screen">
+                <img src="assets/Screenshot_20260512_111526.png" alt="Bilingual Definition View">
+                <img src="assets/Screenshot_20260512_111603.png" alt="Subject Filter Menu">
+                <img src="assets/Screenshot_20260512_111615.png" alt="Flashcards Interface">
+                <img src="assets/Screenshot_20260512_111630.png" alt="Voice Guide Settings">
+            </div>
+
+            <button aria-label="Next Image" onclick="document.getElementById('gallery-slider').scrollBy({left: 300, behavior: 'smooth'})" 
+                style="position: absolute; right: -30px; top: 50%; transform: translateY(-50%); z-index: 10; background: var(--primary); color: white; border: none; width: 50px; height: 50px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+                <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            </button>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <span class="section-tag">Powerful Features</span>
+        <h2 class="section-title">Built for the Modern Student</h2>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon-box">
+                    <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </div>
+                <h3>Instant Search</h3>
+                <p>Lightning fast results with Room Database integration. Works completely offline.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box">
+                    <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 11.37 9.188 16.524 5.319 20.454"></path></svg>
+                </div>
+                <h3>Bilingual Definitions</h3>
+                <p>Every term explained in simple English and clear, relatable Kannada.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box">
+                    <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
+                </div>
+                <h3>Voice Guide</h3>
+                <p>Hear the correct pronunciation of technical terms with our built-in TTS engine.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nalla-Nudi Project by Thrinadh | Professional Portfolio</p>
+    </footer>
+</body>
+</html>

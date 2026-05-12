@@ -1,8 +1,11 @@
 # Nalla-Nudi: Technical Dictionary for Students
 
-**Nalla-Nudi** (ನಲ್ಲ ನುಡಿ) is a premium, Material Design 3-based Android application designed to bridge the language gap for students transitioning from Kannada-medium to English-medium education. It provides a comprehensive offline dictionary of technical terms across Science, Mathematics, and Commerce.
+**Nalla-Nudi** (ನಲ್ಲ ನುಡಿ) is a premium, Material Design 3-based Android application designed to bridge the language gap for students transitioning from Kannada-medium to English-medium education.
 
-![App Header](https://raw.githubusercontent.com/thrinadh2164/Nalla_Nudi/master/app/src/main/res/drawable/ic_app_logo.xml)
+[![View Website](https://img.shields.io/badge/View-Live_Project_Website-6366f1?style=for-the-badge)](https://thrinadh2164.github.io/Nalla_Nudi/)
+[![Download APK](https://img.shields.io/badge/Download-Latest_APK-ec4899?style=for-the-badge)](https://github.com/thrinadh2164/Nalla_Nudi/releases/latest)
+
+---
 
 ## 🌟 Key Features
 
@@ -15,7 +18,17 @@
 - **🎲 Word of the Day**: Get a randomly featured technical term every time you open the app to expand your vocabulary.
 
 ## 📸 Screenshots
-*(Add screenshots here after pushing)*
+
+<p align="center">
+  <img src="docs/assets/Screenshot_20260512_111355.png" width="30%" />
+  <img src="docs/assets/Screenshot_20260512_111507.png" width="30%" />
+  <img src="docs/assets/Screenshot_20260512_111518.png" width="30%" />
+</p>
+<p align="center">
+  <img src="docs/assets/Screenshot_20260512_111526.png" width="30%" />
+  <img src="docs/assets/Screenshot_20260512_111603.png" width="30%" />
+  <img src="docs/assets/Screenshot_20260512_111615.png" width="30%" />
+</p>
 
 ## 🛠️ Technology Stack
 
@@ -30,16 +43,11 @@
 
 ```
 Nalla-Nudi/
-├── app/
-│   ├── src/main/
-│   │   ├── java/com/example/nallanudi/
-│   │   │   ├── MainActivity.kt         # Core Logic & UI Coordination
-│   │   │   ├── data/                   # Room DB, DAOs & Entities
-│   │   │   └── ui/                     # Adapters & Custom View Logic
-│   │   ├── assets/                     # glossary.json (Seed Data)
-│   │   └── res/                        # Material 3 Layouts & Themes
-├── .gitignore                          # Optimized for Android Studio
-└── README.md                           # This file
+├── app/                        # Android Source Code
+├── docs/                       # Project Website & Documentation (HTML)
+├── .gitignore                  # Git Ignore Rules
+├── LICENSE                     # MIT License
+└── README.md                   # Project Overview
 ```
 
 ## 🚀 Getting Started
