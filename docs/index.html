@@ -29,6 +29,7 @@
             color: var(--text);
             line-height: 1.6;
             overflow-x: hidden;
+            font-size: clamp(14px, 1vw, 18px); /* Auto-scaling base font */
         }
 
         .background-blobs {
@@ -42,11 +43,11 @@
             opacity: 0.3;
         }
 
-        .blob-1 { position: absolute; top: -10%; left: -10%; width: 50%; height: 50%; background: var(--primary); border-radius: 50%; }
-        .blob-2 { position: absolute; bottom: -10%; right: -10%; width: 50%; height: 50%; background: var(--secondary); border-radius: 50%; }
+        .blob-1 { position: absolute; top: -10%; left: -10%; width: min(50%, 500px); height: min(50%, 500px); background: var(--primary); border-radius: 50%; }
+        .blob-2 { position: absolute; bottom: -10%; right: -10%; width: min(50%, 500px); height: min(50%, 500px); background: var(--secondary); border-radius: 50%; }
 
         .navbar {
-            padding: 30px;
+            padding: clamp(15px, 3vw, 30px);
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -56,14 +57,14 @@
 
         .logo {
             font-family: 'Outfit', sans-serif;
-            font-size: 1.5rem;
+            font-size: clamp(1.2rem, 2vw, 1.5rem);
             font-weight: 800;
             color: white;
             text-decoration: none;
         }
 
         section {
-            padding: 100px 20px;
+            padding: clamp(40px, 10vw, 100px) 20px;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -71,9 +72,9 @@
         .hero {
             display: grid;
             grid-template-columns: 1.2fr 0.8fr;
-            gap: 60px;
+            gap: clamp(30px, 5vw, 60px);
             align-items: center;
-            padding-top: 40px;
+            padding-top: 20px;
         }
 
         .hero-content { text-align: left; animation: slideInLeft 0.8s ease-out; }
@@ -81,7 +82,7 @@
 
         .hero h1 {
             font-family: 'Outfit', sans-serif;
-            font-size: 5rem;
+            font-size: clamp(2.5rem, 6vw, 5rem);
             line-height: 1.1;
             font-weight: 800;
             margin-bottom: 24px;
@@ -90,15 +91,16 @@
             -webkit-text-fill-color: transparent;
         }
 
-        .hero p { font-size: 1.25rem; color: var(--text-dim); margin-bottom: 40px; max-width: 550px; }
+        .hero p { font-size: clamp(1rem, 1.5vw, 1.25rem); color: var(--text-dim); margin-bottom: 40px; max-width: 550px; }
 
-        .hero-image { position: relative; animation: slideInRight 0.8s ease-out; }
+        .hero-image { position: relative; animation: slideInRight 0.8s ease-out; display: flex; justify-content: center; }
         @keyframes slideInRight { from { opacity: 0; transform: translateX(50px); } to { opacity: 1; transform: translateX(0); } }
 
         .hero-image img {
             width: 100%;
+            max-width: 400px;
             height: auto;
-            border-radius: 40px;
+            border-radius: clamp(20px, 4vw, 40px);
             transform: rotate(-5deg);
             box-shadow: 0 50px 100px -20px rgba(0,0,0,0.5);
             transition: transform 0.5s ease;
@@ -106,10 +108,10 @@
 
         .hero-image:hover img { transform: rotate(0deg) scale(1.05); }
 
-        .actions { display: flex; gap: 20px; }
+        .actions { display: flex; gap: clamp(10px, 2vw, 20px); flex-wrap: wrap; }
 
         .btn {
-            padding: 18px 36px;
+            padding: clamp(12px, 2vw, 18px) clamp(24px, 4vw, 36px);
             border-radius: 18px;
             font-weight: 700;
             text-decoration: none;
@@ -118,7 +120,7 @@
             align-items: center;
             gap: 12px;
             font-family: 'Outfit', sans-serif;
-            font-size: 1.1rem;
+            font-size: clamp(0.9rem, 1.5vw, 1.1rem);
         }
 
         .btn-primary {
@@ -143,13 +145,18 @@
         .btn-secondary:hover { background: rgba(255, 255, 255, 0.1); transform: translateY(-5px); }
 
         .features { text-align: center; }
-        .section-tag { color: var(--secondary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; margin-bottom: 12px; display: block; }
-        .section-title { font-family: 'Outfit', sans-serif; font-size: 3rem; margin-bottom: 60px; }
+        .section-tag { color: var(--secondary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; margin-bottom: 12px; display: block; }
+        .section-title { font-family: 'Outfit', sans-serif; font-size: clamp(2rem, 4vw, 3rem); margin-bottom: clamp(30px, 6vw, 60px); }
 
-        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .features-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 30px; 
+        }
+
         .feature-card {
             background: var(--glass);
-            padding: 40px;
+            padding: clamp(25px, 4vw, 40px);
             border-radius: 30px;
             border: 1px solid var(--border);
             text-align: left;
@@ -159,10 +166,10 @@
         .feature-card:hover { border-color: var(--primary); background: rgba(255,255,255,0.08); transform: translateY(-10px); }
 
         .icon-box {
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
             background: var(--primary-dark);
-            border-radius: 16px;
+            border-radius: 14px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -170,28 +177,28 @@
             color: white;
         }
 
-        .feature-card h3 { font-family: 'Outfit', sans-serif; font-size: 1.5rem; margin-bottom: 16px; color: white; }
-        .feature-card p { color: var(--text-dim); }
+        .feature-card h3 { font-family: 'Outfit', sans-serif; font-size: clamp(1.2rem, 2vw, 1.5rem); margin-bottom: 16px; color: white; }
+        .feature-card p { color: var(--text-dim); font-size: 0.95rem; }
 
         .gallery-container { display: flex; gap: 20px; overflow-x: auto; padding: 20px; scrollbar-width: none; -ms-overflow-style: none; }
         .gallery-container::-webkit-scrollbar { display: none; }
-        .gallery-container img { height: 450px; border-radius: 30px; border: 1px solid var(--border); transition: transform 0.3s ease; }
+        .gallery-container img { height: clamp(300px, 50vh, 450px); border-radius: 20px; border: 1px solid var(--border); transition: transform 0.3s ease; }
         .gallery-container img:hover { transform: scale(1.05); }
 
-        .stats { display: flex; justify-content: space-around; padding: 60px; background: var(--glass); border-radius: 40px; border: 1px solid var(--border); margin-top: 50px; }
-        .stat-item h2 { font-family: 'Outfit', sans-serif; font-size: 3rem; color: var(--accent); }
-        .stat-item p { color: var(--text-dim); font-weight: 600; }
-
-        footer { padding: 60px 20px; text-align: center; border-top: 1px solid var(--border); color: var(--text-dim); margin-top: 50px; }
+        footer { padding: 40px 20px; text-align: center; border-top: 1px solid var(--border); color: var(--text-dim); margin-top: 50px; font-size: 0.9rem; }
 
         @media (max-width: 968px) {
             .hero { grid-template-columns: 1fr; text-align: center; }
-            .hero-content { text-align: center; }
-            .hero h1 { font-size: 3.5rem; }
-            .hero p { margin: 0 auto 40px; }
+            .hero-content { text-align: center; display: flex; flex-direction: column; align-items: center; }
+            .hero h1 { margin-bottom: 16px; }
+            .hero p { margin: 0 auto 30px; }
             .actions { justify-content: center; }
-            .features-grid { grid-template-columns: 1fr; }
-            .stats { flex-direction: column; gap: 40px; }
+            .hero-image { order: -1; margin-bottom: 40px; }
+            .hero-image img { transform: rotate(0); }
+            
+            /* Adjust arrows for mobile */
+            button[aria-label="Previous Image"] { left: 0 !important; width: 40px !important; height: 40px !important; }
+            button[aria-label="Next Image"] { right: 0 !important; width: 40px !important; height: 40px !important; }
         }
     </style>
 </head>
