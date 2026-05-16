@@ -4,3 +4,5 @@
         <domain includeSubdomains="true">example.com</domain>
     </domain-config>
 </data-extraction-rules>
+
+<!-- Author: E Thrinadh Chowdary -->

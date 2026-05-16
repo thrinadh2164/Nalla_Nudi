@@ -28,3 +28,5 @@ abstract class AppDatabase : RoomDatabase() {
         }
     }
 }
+
+// Author: E Thrinadh Chowdary

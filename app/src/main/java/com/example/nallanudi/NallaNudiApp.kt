@@ -16,3 +16,5 @@ class NallaNudiApp : Application() {
         }
     }
 }
+
+// Author: E Thrinadh Chowdary

@@ -15,3 +15,5 @@ data class TechnicalTerm(
     val category: String, // Science, Math, Commerce
     val difficulty: String // Easy, Medium, Hard
 )
+
+// Author: E Thrinadh Chowdary

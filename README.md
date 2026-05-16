@@ -68,3 +68,5 @@ Copyright © 2024 Nalla-Nudi Team. All rights reserved.
 
 ---
 **Built with ❤️ for educational accessibility.**
+
+**Author: E Thrinadh Chowdary**

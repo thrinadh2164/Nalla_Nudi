@@ -18,3 +18,5 @@ data class TechnicalTerm(
     val example: String = "",
     val isFavorite: Boolean = false
 )
+
+// Author: E Thrinadh Chowdary

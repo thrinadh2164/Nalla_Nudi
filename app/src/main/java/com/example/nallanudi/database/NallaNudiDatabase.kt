@@ -33,3 +33,5 @@ abstract class NallaNudiDatabase : RoomDatabase() {
         }
     }
 }
+
+// Author: E Thrinadh Chowdary

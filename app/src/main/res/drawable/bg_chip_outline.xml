@@ -4,3 +4,5 @@
     <corners android:radius="12dp" />
     <solid android:color="@color/gray_50" />
 </shape>
+
+<!-- Author: E Thrinadh Chowdary -->

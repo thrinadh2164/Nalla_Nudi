@@ -38,3 +38,5 @@ interface TechnicalTermDao {
     @Query("SELECT COUNT(*) FROM technical_terms")
     suspend fun getTermCount(): Int
 }
+
+// Author: E Thrinadh Chowdary

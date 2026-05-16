@@ -46,3 +46,5 @@ class TextToSpeechHelper(private val context: Context) : TextToSpeech.OnInitList
         return textToSpeech?.isSpeaking ?: false
     }
 }
+
+// Author: E Thrinadh Chowdary

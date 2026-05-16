@@ -455,3 +455,5 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         super.onDestroy()
     }
 }
+
+// Author: E Thrinadh Chowdary

@@ -13,3 +13,5 @@
 
 # Kotlin
 -keep class kotlin.Metadata { *; }
+
+// Author: E Thrinadh Chowdary

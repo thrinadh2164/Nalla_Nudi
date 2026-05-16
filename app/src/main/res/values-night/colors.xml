@@ -18,3 +18,5 @@
 
     <color name="light_border">#334155</color> <!-- Override light_border to be dark in dark mode -->
 </resources>
+
+<!-- Author: E Thrinadh Chowdary -->

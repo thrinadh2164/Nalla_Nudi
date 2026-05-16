@@ -102,3 +102,5 @@ class TermAdapter(
         }
     }
 }
+
+// Author: E Thrinadh Chowdary

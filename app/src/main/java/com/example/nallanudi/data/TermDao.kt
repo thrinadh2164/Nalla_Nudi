@@ -38,3 +38,5 @@ interface TermDao {
     @Query("SELECT * FROM technical_terms ORDER BY RANDOM() LIMIT 1")
     suspend fun getRandomTerm(): TechnicalTerm?
 }
+
+// Author: E Thrinadh Chowdary

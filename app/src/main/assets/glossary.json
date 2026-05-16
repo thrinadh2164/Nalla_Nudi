@@ -45,3 +45,5 @@
   {"englishWord": "Variable", "kannadaWord": "ಚರಾಕ್ಷರ", "definition": "A data item that may take on more than one value.", "kannadaDefinition": "ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಮೌಲ್ಯಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದಾದ ಡೇಟಾ ಐಟಂ.", "subject": "Math"},
   {"englishWord": "Function", "kannadaWord": "ಕ್ರಿಯೆ", "definition": "A relation or expression involving one or more variables.", "kannadaDefinition": "ಒಂದು ಅಥವಾ ಹೆಚ್ಚು ಚರಾಕ್ಷರಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ಸಂಬಂಧ.", "subject": "Math"}
 ]
+
+// Author: E Thrinadh Chowdary

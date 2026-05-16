@@ -40,3 +40,5 @@ class TermRepository(private val termDao: TechnicalTermDao) {
         return termDao.getTermCount()
     }
 }
+
+// Author: E Thrinadh Chowdary
