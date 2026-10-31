@@ -1,49 +1,1288 @@
 [
-  {"englishWord": "Gravity", "kannadaWord": "ಗುರುತ್ವಾಕರ್ಷಣೆ", "definition": "The force that attracts a body toward the center of the earth.", "kannadaDefinition": "ವಸ್ತುಗಳನ್ನು ಭೂಮಿಯ ಕೇಂದ್ರದ ಕಡೆಗೆ ಆಕರ್ಷಿಸುವ ಶಕ್ತಿ.", "example": "An apple falling from a tree.", "subject": "Physics"},
-  {"englishWord": "Cell", "kannadaWord": "ಜೀವಕೋಶ", "definition": "Basic structural unit of organisms.", "kannadaDefinition": "ಜೀವಿಗಳ ಮೂಲ ಘಟಕ.", "subject": "Biology"},
-  {"englishWord": "Cell", "kannadaWord": "ವಿದ್ಯುತ್ ಕೋಶ", "definition": "A device for power storage.", "kannadaDefinition": "ಬ್ಯಾಟರಿ ಅಥವಾ ಪವರ್ ಸೆಲ್.", "subject": "Physics"},
-  {"englishWord": "Cat", "kannadaWord": "ಬೆಕ್ಕು", "definition": "A common domestic animal.", "kannadaDefinition": "ಮನೆಯಲ್ಲಿ ಸಾಕುವ ಪ್ರಾಣಿ.", "subject": "General"},
-  {"englishWord": "Root", "kannadaWord": "ಮೂಲ", "definition": "The square root of a number.", "kannadaDefinition": "ವರ್ಗಮೂಲ (Square root).", "subject": "Math"},
-  {"englishWord": "Volume", "kannadaWord": "ಗಾತ್ರ", "definition": "The amount of space that an object occupies.", "kannadaDefinition": "ವಸ್ತು ಆಕ್ರಮಿಸುವ ಸ್ಥಳದ ಪ್ರಮಾಣ.", "subject": "Science"},
-  {"englishWord": "Volume", "kannadaWord": "ಧ್ವನಿ ಮಟ್ಟ", "definition": "Quantity or power of sound.", "kannadaDefinition": "ಶಬ್ದದ ತೀವ್ರತೆ ಅಥವಾ ಶಕ್ತಿ.", "subject": "General"},
-  {"englishWord": "Photosynthesis", "kannadaWord": "ಪ್ರಕಾಶ ಸಂಶ್ಲೇಷಣೆ", "definition": "Process by which plants convert light into energy.", "kannadaDefinition": "ಸಸ್ಯಗಳು ಬೆಳಕನ್ನು ಶಕ್ತಿಯಾಗಿ ಪರಿವರ್ತಿಸುವ ಪ್ರಕ್ರಿಯೆ.", "subject": "Science"},
-  {"englishWord": "Atom", "kannadaWord": "ಪರಮಾಣು", "definition": "The basic unit of a chemical element.", "kannadaDefinition": "ರಾಸಾಯನಿಕ ಧಾತುವಿನ ಮೂಲ ಘಟಕ.", "subject": "Science"},
-  {"englishWord": "Molecule", "kannadaWord": "ಅಣು", "definition": "A group of atoms bonded together.", "kannadaDefinition": "ಒಟ್ಟಾಗಿ ಸೇರಿದ ಪರಮಾಣುಗಳ ಗುಂಪು.", "subject": "Science"},
-  {"englishWord": "Force", "kannadaWord": "ಬಲ", "definition": "An influence that changes the motion of an object.", "kannadaDefinition": "ವಸ್ತುವಿನ ಚಲನೆಯನ್ನು ಬದಲಾಯಿಸುವ ಪ್ರಭಾವ.", "subject": "Science"},
-  {"englishWord": "Energy", "kannadaWord": "ಶಕ್ತಿ", "definition": "The capacity for doing work.", "kannadaDefinition": "ಕೆಲಸ ಮಾಡುವ ಸಾಮರ್ಥ್ಯ.", "subject": "Science"},
-  {"englishWord": "Velocity", "kannadaWord": "ವೇಗ", "definition": "The speed of something in a given direction.", "kannadaDefinition": "ನಿರ್ದಿಷ್ಟ ದಿಕ್ಕಿನಲ್ಲಿ ವಸ್ತುವಿನ ವೇಗ.", "subject": "Science"},
-  {"englishWord": "Acceleration", "kannadaWord": "ವೇಗೋತ್ಕರ್ಷ", "definition": "The rate of change of velocity.", "kannadaDefinition": "ವೇಗ ಬದಲಾವಣೆಯ ದರ.", "subject": "Science"},
-  {"englishWord": "Algebra", "kannadaWord": "ಬೀಜಗಣಿತ", "definition": "Mathematical symbols and rules for manipulating them.", "kannadaDefinition": "ಗಣಿತದ ಚಿಹ್ನೆಗಳು ಮತ್ತು ನಿಯಮಗಳು.", "subject": "Math"},
-  {"englishWord": "Trigonometry", "kannadaWord": "ತ್ರಿಕೋನಮಿತಿ", "definition": "Relationships between side lengths and angles of triangles.", "kannadaDefinition": "ತ್ರಿಕೋನಗಳ ಬದಿಗಳ ಉದ್ದ ಮತ್ತು ಕೋನಗಳ ನಡುವಿನ ಸಂಬಂಧಗಳು.", "subject": "Math"},
-  {"englishWord": "Geometry", "kannadaWord": "ಜ್ಯಾಮಿತಿ", "definition": "Study of points, lines, shapes and surfaces.", "kannadaDefinition": "ಬಿಂದುಗಳು, ರೇಖೆಗಳು ಮತ್ತು ಆಕಾರಗಳ ಅಧ್ಯಯನ.", "subject": "Math"},
-  {"englishWord": "Calculus", "kannadaWord": "ಕಲನಶಾಸ್ತ್ರ", "definition": "The mathematical study of continuous change.", "kannadaDefinition": "ನಿರಂತರ ಬದಲಾವಣೆಯ ಗಣಿತದ ಅಧ್ಯಯನ.", "subject": "Math"},
-  {"englishWord": "Integer", "kannadaWord": "ಪೂರ್ಣಾಂಕ", "definition": "A whole number that is not a fraction.", "kannadaDefinition": "ಭಿನ್ನರಾಶಿಯಲ್ಲದ ಪೂರ್ಣ ಸಂಖ್ಯೆ.", "subject": "Math"},
-  {"englishWord": "Matrix", "kannadaWord": "ಮ್ಯಾಟ್ರಿಕ್ಸ್", "definition": "A rectangular array of numbers arranged in rows and columns.", "kannadaDefinition": "ಸಲು ಮತ್ತು ಸಾಲುಗಳಲ್ಲಿ ಜೋಡಿಸಲಾದ ಸಂಖ್ಯೆಗಳ ಒಂದು ಗುಂಪು.", "subject": "Math"},
-  {"englishWord": "Marketing", "kannadaWord": "ಮಾರುಕಟ್ಟೆ", "definition": "Action of promoting and selling products or services.", "kannadaDefinition": "ಉತ್ಪನ್ನಗಳು ಅಥವಾ ಸೇವೆಗಳನ್ನು ಪ್ರಚಾರ ಮಾಡುವ ಕ್ರಿಯೆ.", "subject": "Commerce"},
-  {"englishWord": "Accounting", "kannadaWord": "ಲೆಕ್ಕಪತ್ರ ನಿರ್ವಹಣೆ", "definition": "Process of recording financial transactions.", "kannadaDefinition": "ಹಣಕಾಸಿನ ವಹಿವಾಟುಗಳನ್ನು ದಾಖಲಿಸುವ ಪ್ರಕ್ರಿಯೆ.", "subject": "Commerce"},
-  {"englishWord": "Finance", "kannadaWord": "ಹಣಕಾಸು", "definition": "The management of large amounts of money.", "kannadaDefinition": "ದೊಡ್ಡ ಪ್ರಮಾಣದ ಹಣದ ನಿರ್ವಹಣೆ.", "subject": "Commerce"},
-  {"englishWord": "Audit", "kannadaWord": "ಲೆಕ್ಕಪರಿಶೋಧನೆ", "definition": "An official inspection of an organization's accounts.", "kannadaDefinition": "ಸಂಸ್ಥೆಯ ಖಾತೆಗಳ ಅಧಿಕೃತ ತಪಾಸಣೆ.", "subject": "Commerce"},
-  {"englishWord": "Capital", "kannadaWord": "ಬಂಡವಾಳ", "definition": "Wealth in the form of money or other assets.", "kannadaDefinition": "ಹಣ ಅಥವಾ ಇತರ ಆಸ್ತಿಗಳ ರೂಪದಲ್ಲಿರುವ ಸಂಪತ್ತು.", "subject": "Commerce"},
-  {"englishWord": "Algorithm", "kannadaWord": "ಅಲ್ಗಾರಿದಮ್", "definition": "A process or set of rules to be followed in calculations.", "kannadaDefinition": "ಲೆಕ್ಕಾಚಾರದಲ್ಲಿ ಅನುಸರಿಸಬೇಕಾದ ನಿಯಮಗಳ ಸೆಟ್.", "subject": "General"},
-  {"englishWord": "Binary", "kannadaWord": "ಬೈನರಿ", "definition": "A base-2 number system.", "kannadaDefinition": "ಆಧಾರ-2 ಸಂಖ್ಯೆಯ ವ್ಯವಸ್ಥೆ.", "subject": "General"},
-  {"englishWord": "Database", "kannadaWord": "ದತ್ತಸಂಚಯ", "definition": "A structured set of data held in a computer.", "kannadaDefinition": "ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿರುವ ಡೇಟಾದ ರಚನಾತ್ಮಕ ಸೆಟ್.", "subject": "General"},
-  {"englishWord": "Network", "kannadaWord": "ನೆಟ್‌ವರ್ಕ್", "definition": "A group of interconnected computers.", "kannadaDefinition": "ಪರಸ್ಪರ ಸಂಪರ್ಕ ಹೊಂದಿದ ಕಂಪ್ಯೂಟರ್‌ಗಳ ಗುಂಪು.", "subject": "General"},
-  {"englishWord": "Encryption", "kannadaWord": "ಗೂಢಲಿಪೀಕರಣ", "definition": "Converting information into a secret code.", "kannadaDefinition": "ಮಾಹಿತಿಯನ್ನು ರಹಸ್ಯ ಕೋಡ್ ಆಗಿ ಪರಿವರ್ತಿಸುವುದು.", "subject": "General"},
-  {"englishWord": "Software", "kannadaWord": "ತಂತ್ರಾಂಶ", "definition": "Programs and other operating information used by a computer.", "kannadaDefinition": "ಕಂಪ್ಯೂಟರ್ ಬಳಸುವ ಪ್ರೋಗ್ರಾಂಗಳು.", "subject": "General"},
-  {"englishWord": "Hardware", "kannadaWord": "ಯಂತ್ರಾಂಶ", "definition": "The physical parts of a computer system.", "kannadaDefinition": "ಕಂಪ್ಯೂಟರ್ ಸಿಸ್ಟಮ್‌ನ ಭೌತಿಕ ಭಾಗಗಳು.", "subject": "General"},
-  {"englishWord": "Internet", "kannadaWord": "ಅಂತರಜಾಲ", "definition": "A global computer network.", "kannadaDefinition": "ಜಾಗತಿಕ ಕಂಪ್ಯೂಟರ್ ನೆಟ್‌ವರ್ಕ್.", "subject": "General"},
-  {"englishWord": "Ecosystem", "kannadaWord": "ಪರಿಸರ ವ್ಯವಸ್ಥೆ", "definition": "A biological community of interacting organisms.", "kannadaDefinition": "ಪರಸ್ಪರ ಸಂವಹನ ನಡೆಸುವ ಜೀವಿಗಳ ಜೈವಿಕ ಸಮುದಾಯ.", "subject": "Science"},
-  {"englishWord": "Evolution", "kannadaWord": "ವಿಕಾಸ", "definition": "The process by which living organisms develop from earlier forms.", "kannadaDefinition": "ಜೀವಿಗಳು ಹಿಂದಿನ ರೂಪಗಳಿಂದ ಅಭಿವೃದ್ಧಿ ಹೊಂದಿದ ಪ್ರಕ್ರಿಯೆ.", "subject": "Science"},
-  {"englishWord": "Genetics", "kannadaWord": "ತಳಿಶಾಸ್ತ್ರ", "definition": "The study of heredity and the variation of inherited characteristics.", "kannadaDefinition": "ಅನುವಂಶೀಯತೆಯ ಅಧ್ಯಯನ.", "subject": "Science"},
-  {"englishWord": "Theorem", "kannadaWord": "ಪ್ರಮೇಯ", "definition": "A mathematical statement that has been proven.", "kannadaDefinition": "ಸಾಬೀತಾದ ಗಣಿತದ ಹೇಳಿಕೆ.", "subject": "Math"},
-  {"englishWord": "Probability", "kannadaWord": "ಸಂಭವನೀಯತೆ", "definition": "The extent to which something is likely to happen.", "kannadaDefinition": "ಏನಾದರೂ ಸಂಭವಿಸುವ ಸಾಧ್ಯತೆಯ ಪ್ರಮಾಣ.", "subject": "Math"},
-  {"englishWord": "Statistics", "kannadaWord": "ಸಂಖ್ಯಾಶಾಸ್ತ್ರ", "definition": "Science of collecting and analyzing numerical data.", "kannadaDefinition": "ಸಂಖ್ಯಾತ್ಮಕ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸುವ ಮತ್ತು ವಿಶ್ಲೇಷಿಸುವ ವಿಜ್ಞಾನ.", "subject": "Math"},
-  {"englishWord": "Quantum", "kannadaWord": "ಕ್ವಾಂಟಮ್", "definition": "A discrete quantity of energy.", "kannadaDefinition": "ಶಕ್ತಿಯ ಒಂದು ನಿರ್ದಿಷ್ಟ ಪ್ರಮಾಣ.", "example": "Quantum mechanics is a fundamental theory.", "subject": "Physics"},
-  {"englishWord": "Friction", "kannadaWord": "ಘರ್ಷಣೆ", "definition": "The resistance that one surface or object encounters when moving over another.", "kannadaDefinition": "ಒಂದು ವಸ್ತುವು ಇನ್ನೊಂದರ ಮೇಲೆ ಚಲಿಸುವಾಗ ಎದುರಾಗುವ ಪ್ರತಿರೋಧ.", "example": "Friction generates heat.", "subject": "Physics"},
-  {"englishWord": "Chromosome", "kannadaWord": "ವರ್ಣತಂತು", "definition": "A structure of nucleic acids and protein found in the nucleus.", "kannadaDefinition": "ಜೀವಕೋಶಗಳ ನ್ಯೂಕ್ಲಿಯಸ್‌ನಲ್ಲಿ ಕಂಡುಬರುವ ರಚನೆ.", "subject": "Biology"},
-  {"englishWord": "Dividend", "kannadaWord": "ಲಾಭಾಂಶ", "definition": "A sum of money paid regularly by a company to its shareholders.", "kannadaDefinition": "ಕಂಪನಿಯು ತನ್ನ ಷೇರುದಾರರಿಗೆ ನಿಯಮಿತವಾಗಿ ಪಾವತಿಸುವ ಹಣದ ಮೊತ್ತ.", "subject": "Commerce"},
-  {"englishWord": "Variable", "kannadaWord": "ಚರಾಕ್ಷರ", "definition": "A data item that may take on more than one value.", "kannadaDefinition": "ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಮೌಲ್ಯಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದಾದ ಡೇಟಾ ಐಟಂ.", "subject": "Math"},
-  {"englishWord": "Function", "kannadaWord": "ಕ್ರಿಯೆ", "definition": "A relation or expression involving one or more variables.", "kannadaDefinition": "ಒಂದು ಅಥವಾ ಹೆಚ್ಚು ಚರಾಕ್ಷರಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ಸಂಬಂಧ.", "subject": "Math"}
+  {
+    "englishWord": "Gravity",
+    "kannadaWord": "ಗುರುತ್ವಾಕರ್ಷಣೆ",
+    "definition": "The force that attracts a body toward the center of the earth.",
+    "kannadaDefinition": "ವಸ್ತುಗಳನ್ನು ಭೂಮಿಯ ಕೇಂದ್ರದ ಕಡೆಗೆ ಆಕರ್ಷಿಸುವ ಶಕ್ತಿ.",
+    "example": "An apple falling from a tree.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Cell",
+    "kannadaWord": "ಜೀವಕೋಶ",
+    "definition": "Basic structural unit of organisms.",
+    "kannadaDefinition": "ಜೀವಿಗಳ ಮೂಲ ಘಟಕ.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Cell",
+    "kannadaWord": "ವಿದ್ಯುತ್ ಕೋಶ",
+    "definition": "A device for power storage.",
+    "kannadaDefinition": "ಬ್ಯಾಟರಿ ಅಥವಾ ಪವರ್ ಸೆಲ್.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Cat",
+    "kannadaWord": "ಬೆಕ್ಕು",
+    "definition": "A common domestic animal.",
+    "kannadaDefinition": "ಮನೆಯಲ್ಲಿ ಸಾಕುವ ಪ್ರಾಣಿ.",
+    "subject": "General"
+  },
+  {
+    "englishWord": "Root",
+    "kannadaWord": "ಮೂಲ",
+    "definition": "The square root of a number.",
+    "kannadaDefinition": "ವರ್ಗಮೂಲ (Square root).",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Volume",
+    "kannadaWord": "ಗಾತ್ರ",
+    "definition": "The amount of space that an object occupies.",
+    "kannadaDefinition": "ವಸ್ತು ಆಕ್ರಮಿಸುವ ಸ್ಥಳದ ಪ್ರಮಾಣ.",
+    "subject": "Science"
+  },
+  {
+    "englishWord": "Volume",
+    "kannadaWord": "ಧ್ವನಿ ಮಟ್ಟ",
+    "definition": "Quantity or power of sound.",
+    "kannadaDefinition": "ಶಬ್ದದ ತೀವ್ರತೆ ಅಥವಾ ಶಕ್ತಿ.",
+    "subject": "General"
+  },
+  {
+    "englishWord": "Photosynthesis",
+    "kannadaWord": "ಪ್ರಕಾಶ ಸಂಶ್ಲೇಷಣೆ",
+    "definition": "Process by which plants convert light into energy.",
+    "kannadaDefinition": "ಸಸ್ಯಗಳು ಬೆಳಕನ್ನು ಶಕ್ತಿಯಾಗಿ ಪರಿವರ್ತಿಸುವ ಪ್ರಕ್ರಿಯೆ.",
+    "subject": "Science"
+  },
+  {
+    "englishWord": "Atom",
+    "kannadaWord": "ಪರಮಾಣು",
+    "definition": "The basic unit of a chemical element.",
+    "kannadaDefinition": "ರಾಸಾಯನಿಕ ಧಾತುವಿನ ಮೂಲ ಘಟಕ.",
+    "subject": "Science"
+  },
+  {
+    "englishWord": "Molecule",
+    "kannadaWord": "ಅಣು",
+    "definition": "A group of atoms bonded together.",
+    "kannadaDefinition": "ಒಟ್ಟಾಗಿ ಸೇರಿದ ಪರಮಾಣುಗಳ ಗುಂಪು.",
+    "subject": "Science"
+  },
+  {
+    "englishWord": "Force",
+    "kannadaWord": "ಬಲ",
+    "definition": "An influence that changes the motion of an object.",
+    "kannadaDefinition": "ವಸ್ತುವಿನ ಚಲನೆಯನ್ನು ಬದಲಾಯಿಸುವ ಪ್ರಭಾವ.",
+    "subject": "Science"
+  },
+  {
+    "englishWord": "Energy",
+    "kannadaWord": "ಶಕ್ತಿ",
+    "definition": "The capacity for doing work.",
+    "kannadaDefinition": "ಕೆಲಸ ಮಾಡುವ ಸಾಮರ್ಥ್ಯ.",
+    "subject": "Science"
+  },
+  {
+    "englishWord": "Velocity",
+    "kannadaWord": "ವೇಗ",
+    "definition": "The speed of something in a given direction.",
+    "kannadaDefinition": "ನಿರ್ದಿಷ್ಟ ದಿಕ್ಕಿನಲ್ಲಿ ವಸ್ತುವಿನ ವೇಗ.",
+    "subject": "Science"
+  },
+  {
+    "englishWord": "Acceleration",
+    "kannadaWord": "ವೇಗೋತ್ಕರ್ಷ",
+    "definition": "The rate of change of velocity.",
+    "kannadaDefinition": "ವೇಗ ಬದಲಾವಣೆಯ ದರ.",
+    "subject": "Science"
+  },
+  {
+    "englishWord": "Algebra",
+    "kannadaWord": "ಬೀಜಗಣಿತ",
+    "definition": "Mathematical symbols and rules for manipulating them.",
+    "kannadaDefinition": "ಗಣಿತದ ಚಿಹ್ನೆಗಳು ಮತ್ತು ನಿಯಮಗಳು.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Trigonometry",
+    "kannadaWord": "ತ್ರಿಕೋನಮಿತಿ",
+    "definition": "Relationships between side lengths and angles of triangles.",
+    "kannadaDefinition": "ತ್ರಿಕೋನಗಳ ಬದಿಗಳ ಉದ್ದ ಮತ್ತು ಕೋನಗಳ ನಡುವಿನ ಸಂಬಂಧಗಳು.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Geometry",
+    "kannadaWord": "ಜ್ಯಾಮಿತಿ",
+    "definition": "Study of points, lines, shapes and surfaces.",
+    "kannadaDefinition": "ಬಿಂದುಗಳು, ರೇಖೆಗಳು ಮತ್ತು ಆಕಾರಗಳ ಅಧ್ಯಯನ.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Calculus",
+    "kannadaWord": "ಕಲನಶಾಸ್ತ್ರ",
+    "definition": "The mathematical study of continuous change.",
+    "kannadaDefinition": "ನಿರಂತರ ಬದಲಾವಣೆಯ ಗಣಿತದ ಅಧ್ಯಯನ.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Integer",
+    "kannadaWord": "ಪೂರ್ಣಾಂಕ",
+    "definition": "A whole number that is not a fraction.",
+    "kannadaDefinition": "ಭಿನ್ನರಾಶಿಯಲ್ಲದ ಪೂರ್ಣ ಸಂಖ್ಯೆ.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Matrix",
+    "kannadaWord": "ಮ್ಯಾಟ್ರಿಕ್ಸ್",
+    "definition": "A rectangular array of numbers arranged in rows and columns.",
+    "kannadaDefinition": "ಸಲು ಮತ್ತು ಸಾಲುಗಳಲ್ಲಿ ಜೋಡಿಸಲಾದ ಸಂಖ್ಯೆಗಳ ಒಂದು ಗುಂಪು.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Marketing",
+    "kannadaWord": "ಮಾರುಕಟ್ಟೆ",
+    "definition": "Action of promoting and selling products or services.",
+    "kannadaDefinition": "ಉತ್ಪನ್ನಗಳು ಅಥವಾ ಸೇವೆಗಳನ್ನು ಪ್ರಚಾರ ಮಾಡುವ ಕ್ರಿಯೆ.",
+    "subject": "Commerce"
+  },
+  {
+    "englishWord": "Accounting",
+    "kannadaWord": "ಲೆಕ್ಕಪತ್ರ ನಿರ್ವಹಣೆ",
+    "definition": "Process of recording financial transactions.",
+    "kannadaDefinition": "ಹಣಕಾಸಿನ ವಹಿವಾಟುಗಳನ್ನು ದಾಖಲಿಸುವ ಪ್ರಕ್ರಿಯೆ.",
+    "subject": "Commerce"
+  },
+  {
+    "englishWord": "Finance",
+    "kannadaWord": "ಹಣಕಾಸು",
+    "definition": "The management of large amounts of money.",
+    "kannadaDefinition": "ದೊಡ್ಡ ಪ್ರಮಾಣದ ಹಣದ ನಿರ್ವಹಣೆ.",
+    "subject": "Commerce"
+  },
+  {
+    "englishWord": "Audit",
+    "kannadaWord": "ಲೆಕ್ಕಪರಿಶೋಧನೆ",
+    "definition": "An official inspection of an organization's accounts.",
+    "kannadaDefinition": "ಸಂಸ್ಥೆಯ ಖಾತೆಗಳ ಅಧಿಕೃತ ತಪಾಸಣೆ.",
+    "subject": "Commerce"
+  },
+  {
+    "englishWord": "Capital",
+    "kannadaWord": "ಬಂಡವಾಳ",
+    "definition": "Wealth in the form of money or other assets.",
+    "kannadaDefinition": "ಹಣ ಅಥವಾ ಇತರ ಆಸ್ತಿಗಳ ರೂಪದಲ್ಲಿರುವ ಸಂಪತ್ತು.",
+    "subject": "Commerce"
+  },
+  {
+    "englishWord": "Algorithm",
+    "kannadaWord": "ಅಲ್ಗಾರಿದಮ್",
+    "definition": "A process or set of rules to be followed in calculations.",
+    "kannadaDefinition": "ಲೆಕ್ಕಾಚಾರದಲ್ಲಿ ಅನುಸರಿಸಬೇಕಾದ ನಿಯಮಗಳ ಸೆಟ್.",
+    "subject": "General"
+  },
+  {
+    "englishWord": "Binary",
+    "kannadaWord": "ಬೈನರಿ",
+    "definition": "A base-2 number system.",
+    "kannadaDefinition": "ಆಧಾರ-2 ಸಂಖ್ಯೆಯ ವ್ಯವಸ್ಥೆ.",
+    "subject": "General"
+  },
+  {
+    "englishWord": "Database",
+    "kannadaWord": "ದತ್ತಸಂಚಯ",
+    "definition": "A structured set of data held in a computer.",
+    "kannadaDefinition": "ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿರುವ ಡೇಟಾದ ರಚನಾತ್ಮಕ ಸೆಟ್.",
+    "subject": "General"
+  },
+  {
+    "englishWord": "Network",
+    "kannadaWord": "ನೆಟ್‌ವರ್ಕ್",
+    "definition": "A group of interconnected computers.",
+    "kannadaDefinition": "ಪರಸ್ಪರ ಸಂಪರ್ಕ ಹೊಂದಿದ ಕಂಪ್ಯೂಟರ್‌ಗಳ ಗುಂಪು.",
+    "subject": "General"
+  },
+  {
+    "englishWord": "Encryption",
+    "kannadaWord": "ಗೂಢಲಿಪೀಕರಣ",
+    "definition": "Converting information into a secret code.",
+    "kannadaDefinition": "ಮಾಹಿತಿಯನ್ನು ರಹಸ್ಯ ಕೋಡ್ ಆಗಿ ಪರಿವರ್ತಿಸುವುದು.",
+    "subject": "General"
+  },
+  {
+    "englishWord": "Software",
+    "kannadaWord": "ತಂತ್ರಾಂಶ",
+    "definition": "Programs and other operating information used by a computer.",
+    "kannadaDefinition": "ಕಂಪ್ಯೂಟರ್ ಬಳಸುವ ಪ್ರೋಗ್ರಾಂಗಳು.",
+    "subject": "General"
+  },
+  {
+    "englishWord": "Hardware",
+    "kannadaWord": "ಯಂತ್ರಾಂಶ",
+    "definition": "The physical parts of a computer system.",
+    "kannadaDefinition": "ಕಂಪ್ಯೂಟರ್ ಸಿಸ್ಟಮ್‌ನ ಭೌತಿಕ ಭಾಗಗಳು.",
+    "subject": "General"
+  },
+  {
+    "englishWord": "Internet",
+    "kannadaWord": "ಅಂತರಜಾಲ",
+    "definition": "A global computer network.",
+    "kannadaDefinition": "ಜಾಗತಿಕ ಕಂಪ್ಯೂಟರ್ ನೆಟ್‌ವರ್ಕ್.",
+    "subject": "General"
+  },
+  {
+    "englishWord": "Ecosystem",
+    "kannadaWord": "ಪರಿಸರ ವ್ಯವಸ್ಥೆ",
+    "definition": "A biological community of interacting organisms.",
+    "kannadaDefinition": "ಪರಸ್ಪರ ಸಂವಹನ ನಡೆಸುವ ಜೀವಿಗಳ ಜೈವಿಕ ಸಮುದಾಯ.",
+    "subject": "Science"
+  },
+  {
+    "englishWord": "Evolution",
+    "kannadaWord": "ವಿಕಾಸ",
+    "definition": "The process by which living organisms develop from earlier forms.",
+    "kannadaDefinition": "ಜೀವಿಗಳು ಹಿಂದಿನ ರೂಪಗಳಿಂದ ಅಭಿವೃದ್ಧಿ ಹೊಂದಿದ ಪ್ರಕ್ರಿಯೆ.",
+    "subject": "Science"
+  },
+  {
+    "englishWord": "Genetics",
+    "kannadaWord": "ತಳಿಶಾಸ್ತ್ರ",
+    "definition": "The study of heredity and the variation of inherited characteristics.",
+    "kannadaDefinition": "ಅನುವಂಶೀಯತೆಯ ಅಧ್ಯಯನ.",
+    "subject": "Science"
+  },
+  {
+    "englishWord": "Theorem",
+    "kannadaWord": "ಪ್ರಮೇಯ",
+    "definition": "A mathematical statement that has been proven.",
+    "kannadaDefinition": "ಸಾಬೀತಾದ ಗಣಿತದ ಹೇಳಿಕೆ.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Probability",
+    "kannadaWord": "ಸಂಭವನೀಯತೆ",
+    "definition": "The extent to which something is likely to happen.",
+    "kannadaDefinition": "ಏನಾದರೂ ಸಂಭವಿಸುವ ಸಾಧ್ಯತೆಯ ಪ್ರಮಾಣ.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Statistics",
+    "kannadaWord": "ಸಂಖ್ಯಾಶಾಸ್ತ್ರ",
+    "definition": "Science of collecting and analyzing numerical data.",
+    "kannadaDefinition": "ಸಂಖ್ಯಾತ್ಮಕ ಡೇಟಾವನ್ನು ಸಂಗ್ರಹಿಸುವ ಮತ್ತು ವಿಶ್ಲೇಷಿಸುವ ವಿಜ್ಞಾನ.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Quantum",
+    "kannadaWord": "ಕ್ವಾಂಟಮ್",
+    "definition": "A discrete quantity of energy.",
+    "kannadaDefinition": "ಶಕ್ತಿಯ ಒಂದು ನಿರ್ದಿಷ್ಟ ಪ್ರಮಾಣ.",
+    "example": "Quantum mechanics is a fundamental theory.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Friction",
+    "kannadaWord": "ಘರ್ಷಣೆ",
+    "definition": "The resistance that one surface or object encounters when moving over another.",
+    "kannadaDefinition": "ಒಂದು ವಸ್ತುವು ಇನ್ನೊಂದರ ಮೇಲೆ ಚಲಿಸುವಾಗ ಎದುರಾಗುವ ಪ್ರತಿರೋಧ.",
+    "example": "Friction generates heat.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Chromosome",
+    "kannadaWord": "ವರ್ಣತಂತು",
+    "definition": "A structure of nucleic acids and protein found in the nucleus.",
+    "kannadaDefinition": "ಜೀವಕೋಶಗಳ ನ್ಯೂಕ್ಲಿಯಸ್‌ನಲ್ಲಿ ಕಂಡುಬರುವ ರಚನೆ.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Dividend",
+    "kannadaWord": "ಲಾಭಾಂಶ",
+    "definition": "A sum of money paid regularly by a company to its shareholders.",
+    "kannadaDefinition": "ಕಂಪನಿಯು ತನ್ನ ಷೇರುದಾರರಿಗೆ ನಿಯಮಿತವಾಗಿ ಪಾವತಿಸುವ ಹಣದ ಮೊತ್ತ.",
+    "subject": "Commerce"
+  },
+  {
+    "englishWord": "Variable",
+    "kannadaWord": "ಚರಾಕ್ಷರ",
+    "definition": "A data item that may take on more than one value.",
+    "kannadaDefinition": "ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಮೌಲ್ಯಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದಾದ ಡೇಟಾ ಐಟಂ.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Function",
+    "kannadaWord": "ಕ್ರಿಯೆ",
+    "definition": "A relation or expression involving one or more variables.",
+    "kannadaDefinition": "ಒಂದು ಅಥವಾ ಹೆಚ್ಚು ಚರಾಕ್ಷರಗಳನ್ನು ಒಳಗೊಂಡಿರುವ ಸಂಬಂಧ.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Mass",
+    "kannadaWord": "ದ್ರವ್ಯರಾಶಿ",
+    "definition": "The amount of matter in an object.",
+    "kannadaDefinition": "ವಸ್ತುವಿನಲ್ಲಿರುವ ದ್ರವ್ಯದ ಪ್ರಮಾಣ.",
+    "example": "The mass of the bag is 2 kg.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Weight",
+    "kannadaWord": "ತೂಕ",
+    "definition": "The force with which gravity pulls an object.",
+    "kannadaDefinition": "ಗುರುತ್ವವು ವಸ್ತುವನ್ನು ಎಳೆಯುವ ಬಲ.",
+    "example": "Your weight is less on the Moon.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Speed",
+    "kannadaWord": "ಜವ",
+    "definition": "Distance travelled per unit time.",
+    "kannadaDefinition": "ಏಕಮಾನ ಕಾಲದಲ್ಲಿ ಕ್ರಮಿಸಿದ ದೂರ.",
+    "example": "The car moves at a speed of 60 km/h.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Distance",
+    "kannadaWord": "ದೂರ",
+    "definition": "The total length of the path travelled.",
+    "kannadaDefinition": "ಕ್ರಮಿಸಿದ ಮಾರ್ಗದ ಒಟ್ಟು ಉದ್ದ.",
+    "example": "She walked a distance of 3 km.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Displacement",
+    "kannadaWord": "ಸ್ಥಾನಪಲ್ಲಟ",
+    "definition": "The shortest distance from start to end point, with direction.",
+    "kannadaDefinition": "ಆರಂಭದಿಂದ ಅಂತ್ಯ ಬಿಂದುವಿನವರೆಗಿನ ದಿಕ್ಕು ಸಹಿತ ಕನಿಷ್ಠ ದೂರ.",
+    "example": "After a full lap, displacement is zero.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Momentum",
+    "kannadaWord": "ಸಂವೇಗ",
+    "definition": "The product of mass and velocity.",
+    "kannadaDefinition": "ದ್ರವ್ಯರಾಶಿ ಮತ್ತು ವೇಗದ ಗುಣಲಬ್ಧ.",
+    "example": "A moving truck has large momentum.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Inertia",
+    "kannadaWord": "ಜಡತ್ವ",
+    "definition": "The tendency of an object to resist change in its motion.",
+    "kannadaDefinition": "ತನ್ನ ಚಲನಾ ಸ್ಥಿತಿಯ ಬದಲಾವಣೆಯನ್ನು ವಿರೋಧಿಸುವ ವಸ್ತುವಿನ ಗುಣ.",
+    "example": "Passengers lurch forward when a bus stops suddenly.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Pressure",
+    "kannadaWord": "ಒತ್ತಡ",
+    "definition": "Force acting per unit area.",
+    "kannadaDefinition": "ಏಕಮಾನ ವಿಸ್ತೀರ್ಣದ ಮೇಲೆ ವರ್ತಿಸುವ ಬಲ.",
+    "example": "A sharp knife cuts easily due to high pressure.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Density",
+    "kannadaWord": "ಸಾಂದ್ರತೆ",
+    "definition": "Mass per unit volume of a substance.",
+    "kannadaDefinition": "ಏಕಮಾನ ಗಾತ್ರದಲ್ಲಿರುವ ದ್ರವ್ಯರಾಶಿ.",
+    "example": "Iron has a higher density than wood.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Work",
+    "kannadaWord": "ಕೆಲಸ",
+    "definition": "Force multiplied by the displacement in its direction.",
+    "kannadaDefinition": "ಬಲ ಮತ್ತು ಅದರ ದಿಕ್ಕಿನಲ್ಲಿನ ಸ್ಥಾನಪಲ್ಲಟದ ಗುಣಲಬ್ಧ.",
+    "example": "Lifting a box does work against gravity.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Power",
+    "kannadaWord": "ಸಾಮರ್ಥ್ಯ",
+    "definition": "The rate of doing work.",
+    "kannadaDefinition": "ಕೆಲಸ ಮಾಡುವ ದರ.",
+    "example": "A 100 W bulb uses 100 joules per second.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Kinetic Energy",
+    "kannadaWord": "ಚಲನ ಶಕ್ತಿ",
+    "definition": "Energy an object has because of its motion.",
+    "kannadaDefinition": "ಚಲನೆಯ ಕಾರಣದಿಂದ ವಸ್ತು ಹೊಂದಿರುವ ಶಕ್ತಿ.",
+    "example": "A rolling ball has kinetic energy.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Potential Energy",
+    "kannadaWord": "ಸ್ಥಿತಿ ಶಕ್ತಿ",
+    "definition": "Energy stored due to position or shape.",
+    "kannadaDefinition": "ಸ್ಥಾನ ಅಥವಾ ಆಕಾರದ ಕಾರಣ ಸಂಗ್ರಹವಾಗಿರುವ ಶಕ್ತಿ.",
+    "example": "Water stored in a dam has potential energy.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Wave",
+    "kannadaWord": "ತರಂಗ",
+    "definition": "A disturbance that carries energy from one place to another.",
+    "kannadaDefinition": "ಶಕ್ತಿಯನ್ನು ಒಂದು ಸ್ಥಳದಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ಸಾಗಿಸುವ ಕ್ಷೋಭೆ.",
+    "example": "Sound travels as a wave.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Frequency",
+    "kannadaWord": "ಆವೃತ್ತಿ",
+    "definition": "Number of oscillations per second.",
+    "kannadaDefinition": "ಒಂದು ಸೆಕೆಂಡಿನಲ್ಲಿ ಆಗುವ ಕಂಪನಗಳ ಸಂಖ್ಯೆ.",
+    "example": "Frequency is measured in hertz.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Wavelength",
+    "kannadaWord": "ತರಂಗಾಂತರ",
+    "definition": "Distance between two consecutive crests of a wave.",
+    "kannadaDefinition": "ಎರಡು ಸತತ ಶೃಂಗಗಳ ನಡುವಿನ ದೂರ.",
+    "example": "Red light has a longer wavelength than blue.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Reflection",
+    "kannadaWord": "ಪ್ರತಿಫಲನ",
+    "definition": "Bouncing back of light or sound from a surface.",
+    "kannadaDefinition": "ಮೇಲ್ಮೈಯಿಂದ ಬೆಳಕು ಅಥವಾ ಧ್ವನಿ ಹಿಂತಿರುಗುವುದು.",
+    "example": "We see our image in a mirror due to reflection.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Refraction",
+    "kannadaWord": "ವಕ್ರೀಭವನ",
+    "definition": "Bending of light when it passes from one medium to another.",
+    "kannadaDefinition": "ಒಂದು ಮಾಧ್ಯಮದಿಂದ ಇನ್ನೊಂದಕ್ಕೆ ಹೋಗುವಾಗ ಬೆಳಕು ಬಾಗುವುದು.",
+    "example": "A pencil looks bent in water due to refraction.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Lens",
+    "kannadaWord": "ಮಸೂರ",
+    "definition": "A transparent curved piece that bends light.",
+    "kannadaDefinition": "ಬೆಳಕನ್ನು ಬಾಗಿಸುವ ಪಾರದರ್ಶಕ ವಕ್ರ ವಸ್ತು.",
+    "example": "Spectacles use lenses.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Mirror",
+    "kannadaWord": "ದರ್ಪಣ",
+    "definition": "A smooth surface that reflects light to form images.",
+    "kannadaDefinition": "ಬೆಳಕನ್ನು ಪ್ರತಿಫಲಿಸಿ ಪ್ರತಿಬಿಂಬ ಉಂಟುಮಾಡುವ ನಯವಾದ ಮೇಲ್ಮೈ.",
+    "example": "Vehicles use convex mirrors.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Electric Current",
+    "kannadaWord": "ವಿದ್ಯುತ್ ಪ್ರವಾಹ",
+    "definition": "Flow of electric charge through a conductor.",
+    "kannadaDefinition": "ವಾಹಕದ ಮೂಲಕ ವಿದ್ಯುದಾವೇಶದ ಹರಿವು.",
+    "example": "Current is measured in amperes.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Voltage",
+    "kannadaWord": "ವಿಭವಾಂತರ",
+    "definition": "Difference in electric potential between two points.",
+    "kannadaDefinition": "ಎರಡು ಬಿಂದುಗಳ ನಡುವಿನ ವಿದ್ಯುತ್ ವಿಭವದ ವ್ಯತ್ಯಾಸ.",
+    "example": "A phone charger gives 5 volts.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Resistance",
+    "kannadaWord": "ರೋಧ",
+    "definition": "Opposition to the flow of current.",
+    "kannadaDefinition": "ವಿದ್ಯುತ್ ಪ್ರವಾಹಕ್ಕೆ ಉಂಟಾಗುವ ವಿರೋಧ.",
+    "example": "Resistance is measured in ohms.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Conductor",
+    "kannadaWord": "ವಾಹಕ",
+    "definition": "A material that allows electricity or heat to pass through.",
+    "kannadaDefinition": "ವಿದ್ಯುತ್ ಅಥವಾ ಉಷ್ಣವನ್ನು ಹರಿಯಲು ಬಿಡುವ ವಸ್ತು.",
+    "example": "Copper is a good conductor.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Insulator",
+    "kannadaWord": "ಅವಾಹಕ",
+    "definition": "A material that does not allow electricity or heat to pass easily.",
+    "kannadaDefinition": "ವಿದ್ಯುತ್ ಅಥವಾ ಉಷ್ಣವನ್ನು ಸುಲಭವಾಗಿ ಹರಿಯಲು ಬಿಡದ ವಸ್ತು.",
+    "example": "Rubber is an insulator.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Magnet",
+    "kannadaWord": "ಆಯಸ್ಕಾಂತ",
+    "definition": "An object that attracts iron and has north and south poles.",
+    "kannadaDefinition": "ಕಬ್ಬಿಣವನ್ನು ಆಕರ್ಷಿಸುವ, ಉತ್ತರ ಮತ್ತು ದಕ್ಷಿಣ ಧ್ರುವಗಳಿರುವ ವಸ್ತು.",
+    "example": "A compass needle is a magnet.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Magnetic Field",
+    "kannadaWord": "ಕಾಂತಕ್ಷೇತ್ರ",
+    "definition": "The region around a magnet where its force acts.",
+    "kannadaDefinition": "ಆಯಸ್ಕಾಂತದ ಬಲ ವರ್ತಿಸುವ ಸುತ್ತಲಿನ ಪ್ರದೇಶ.",
+    "example": "Iron filings show the magnetic field pattern.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Temperature",
+    "kannadaWord": "ತಾಪ",
+    "definition": "A measure of how hot or cold something is.",
+    "kannadaDefinition": "ವಸ್ತು ಎಷ್ಟು ಬಿಸಿ ಅಥವಾ ತಂಪಾಗಿದೆ ಎಂಬುದರ ಅಳತೆ.",
+    "example": "Water boils at 100 °C.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Heat",
+    "kannadaWord": "ಉಷ್ಣ",
+    "definition": "Energy that flows from a hotter body to a colder one.",
+    "kannadaDefinition": "ಬಿಸಿ ವಸ್ತುವಿನಿಂದ ತಂಪಾದ ವಸ್ತುವಿಗೆ ಹರಿಯುವ ಶಕ್ತಿ.",
+    "example": "Heat from the stove warms the pan.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Thermometer",
+    "kannadaWord": "ಉಷ್ಣತಾಮಾಪಕ",
+    "definition": "An instrument for measuring temperature.",
+    "kannadaDefinition": "ತಾಪವನ್ನು ಅಳೆಯುವ ಉಪಕರಣ.",
+    "example": "A doctor uses a clinical thermometer.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Sound",
+    "kannadaWord": "ಧ್ವನಿ",
+    "definition": "Vibrations that travel through a medium and can be heard.",
+    "kannadaDefinition": "ಮಾಧ್ಯಮದ ಮೂಲಕ ಸಾಗಿ ಕೇಳಿಸುವ ಕಂಪನಗಳು.",
+    "example": "Sound cannot travel through a vacuum.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Echo",
+    "kannadaWord": "ಪ್ರತಿಧ್ವನಿ",
+    "definition": "Sound heard again after reflection from a surface.",
+    "kannadaDefinition": "ಮೇಲ್ಮೈಯಿಂದ ಪ್ರತಿಫಲಿಸಿ ಮತ್ತೆ ಕೇಳಿಸುವ ಧ್ವನಿ.",
+    "example": "Shouting in a valley produces an echo.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Vacuum",
+    "kannadaWord": "ನಿರ್ವಾತ",
+    "definition": "A space with no matter, not even air.",
+    "kannadaDefinition": "ಗಾಳಿಯೂ ಇಲ್ಲದ ಖಾಲಿ ಸ್ಥಳ.",
+    "example": "Outer space is nearly a vacuum.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Buoyancy",
+    "kannadaWord": "ಉತ್ಪ್ಲವನ ಬಲ",
+    "definition": "Upward force exerted by a fluid on an object in it.",
+    "kannadaDefinition": "ದ್ರವವು ಅದರಲ್ಲಿ ಮುಳುಗಿದ ವಸ್ತುವಿನ ಮೇಲೆ ಮೇಲ್ಮುಖವಾಗಿ ಬೀರುವ ಬಲ.",
+    "example": "Ships float because of buoyancy.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Pendulum",
+    "kannadaWord": "ಲೋಲಕ",
+    "definition": "A weight hung from a fixed point that swings back and forth.",
+    "kannadaDefinition": "ಸ್ಥಿರ ಬಿಂದುವಿನಿಂದ ತೂಗಾಡುವ ತೂಕ.",
+    "example": "Old clocks use a pendulum.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Lever",
+    "kannadaWord": "ಸನ್ನೆ",
+    "definition": "A rigid bar that turns on a fixed point to lift loads.",
+    "kannadaDefinition": "ಸ್ಥಿರ ಬಿಂದುವಿನ ಮೇಲೆ ತಿರುಗಿ ಭಾರ ಎತ್ತುವ ಗಟ್ಟಿ ಸಲಾಕೆ.",
+    "example": "A see-saw is a lever.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Spectrum",
+    "kannadaWord": "ವರ್ಣಪಟಲ",
+    "definition": "The band of colours formed when white light splits.",
+    "kannadaDefinition": "ಬಿಳಿ ಬೆಳಕು ವಿಭಜನೆಯಾದಾಗ ಉಂಟಾಗುವ ಬಣ್ಣಗಳ ಪಟ್ಟಿ.",
+    "example": "A rainbow is a natural spectrum.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Electron",
+    "kannadaWord": "ಎಲೆಕ್ಟ್ರಾನ್",
+    "definition": "A negatively charged particle that orbits the nucleus.",
+    "kannadaDefinition": "ಬೀಜಕೇಂದ್ರದ ಸುತ್ತ ಸುತ್ತುವ ಋಣಾವೇಶದ ಕಣ.",
+    "example": "Electric current is a flow of electrons.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Proton",
+    "kannadaWord": "ಪ್ರೋಟಾನ್",
+    "definition": "A positively charged particle in the nucleus of an atom.",
+    "kannadaDefinition": "ಪರಮಾಣುವಿನ ಬೀಜಕೇಂದ್ರದಲ್ಲಿರುವ ಧನಾವೇಶದ ಕಣ.",
+    "example": "Hydrogen has one proton.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Neutron",
+    "kannadaWord": "ನ್ಯೂಟ್ರಾನ್",
+    "definition": "A particle with no charge in the nucleus of an atom.",
+    "kannadaDefinition": "ಪರಮಾಣುವಿನ ಬೀಜಕೇಂದ್ರದಲ್ಲಿರುವ ಆವೇಶರಹಿತ ಕಣ.",
+    "example": "Neutrons and protons make up the nucleus.",
+    "subject": "Physics"
+  },
+  {
+    "englishWord": "Tissue",
+    "kannadaWord": "ಅಂಗಾಂಶ",
+    "definition": "A group of similar cells performing a specific function.",
+    "kannadaDefinition": "ನಿರ್ದಿಷ್ಟ ಕಾರ್ಯ ನಿರ್ವಹಿಸುವ ಒಂದೇ ರೀತಿಯ ಜೀವಕೋಶಗಳ ಗುಂಪು.",
+    "example": "Muscle tissue helps in movement.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Organ",
+    "kannadaWord": "ಅಂಗ",
+    "definition": "A body part made of tissues that does a specific job.",
+    "kannadaDefinition": "ಅಂಗಾಂಶಗಳಿಂದ ಕೂಡಿದ, ನಿರ್ದಿಷ್ಟ ಕೆಲಸ ಮಾಡುವ ದೇಹದ ಭಾಗ.",
+    "example": "The heart is an organ.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Nucleus",
+    "kannadaWord": "ಕೋಶಕೇಂದ್ರ",
+    "definition": "The control centre of a cell that contains genetic material.",
+    "kannadaDefinition": "ಆನುವಂಶಿಕ ವಸ್ತುವನ್ನು ಹೊಂದಿರುವ ಜೀವಕೋಶದ ನಿಯಂತ್ರಣ ಕೇಂದ್ರ.",
+    "example": "DNA is found in the nucleus.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Mitochondria",
+    "kannadaWord": "ಮೈಟೋಕಾಂಡ್ರಿಯ",
+    "definition": "Cell organelles that release energy from food.",
+    "kannadaDefinition": "ಆಹಾರದಿಂದ ಶಕ್ತಿಯನ್ನು ಬಿಡುಗಡೆ ಮಾಡುವ ಜೀವಕೋಶದ ಅಂಗಕ.",
+    "example": "Mitochondria are called the powerhouse of the cell.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Chlorophyll",
+    "kannadaWord": "ಪತ್ರಹರಿತ್ತು",
+    "definition": "The green pigment in plants that absorbs light.",
+    "kannadaDefinition": "ಬೆಳಕನ್ನು ಹೀರುವ ಸಸ್ಯಗಳಲ್ಲಿನ ಹಸಿರು ವರ್ಣಕ.",
+    "example": "Leaves are green because of chlorophyll.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Respiration",
+    "kannadaWord": "ಉಸಿರಾಟ",
+    "definition": "The process of releasing energy from food using oxygen.",
+    "kannadaDefinition": "ಆಮ್ಲಜನಕ ಬಳಸಿ ಆಹಾರದಿಂದ ಶಕ್ತಿ ಬಿಡುಗಡೆ ಮಾಡುವ ಪ್ರಕ್ರಿಯೆ.",
+    "example": "Humans and plants both carry out respiration.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Digestion",
+    "kannadaWord": "ಜೀರ್ಣಕ್ರಿಯೆ",
+    "definition": "Breaking down food into simple substances the body can absorb.",
+    "kannadaDefinition": "ಆಹಾರವನ್ನು ದೇಹ ಹೀರಿಕೊಳ್ಳಬಹುದಾದ ಸರಳ ವಸ್ತುಗಳಾಗಿ ವಿಭಜಿಸುವುದು.",
+    "example": "Digestion begins in the mouth.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Enzyme",
+    "kannadaWord": "ಕಿಣ್ವ",
+    "definition": "A protein that speeds up chemical reactions in the body.",
+    "kannadaDefinition": "ದೇಹದಲ್ಲಿ ರಾಸಾಯನಿಕ ಕ್ರಿಯೆಗಳನ್ನು ವೇಗಗೊಳಿಸುವ ಪ್ರೋಟೀನ್.",
+    "example": "Saliva contains an enzyme that digests starch.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Hormone",
+    "kannadaWord": "ಹಾರ್ಮೋನ್",
+    "definition": "A chemical messenger released by glands into the blood.",
+    "kannadaDefinition": "ಗ್ರಂಥಿಗಳು ರಕ್ತಕ್ಕೆ ಬಿಡುಗಡೆ ಮಾಡುವ ರಾಸಾಯನಿಕ ಸಂದೇಶವಾಹಕ.",
+    "example": "Insulin is a hormone.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Gene",
+    "kannadaWord": "ವಂಶವಾಹಿ",
+    "definition": "A unit of heredity made of DNA.",
+    "kannadaDefinition": "ಡಿಎನ್ಎಯಿಂದ ಆದ ಅನುವಂಶೀಯತೆಯ ಘಟಕ.",
+    "example": "Eye colour is controlled by genes.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "DNA",
+    "kannadaWord": "ಡಿಎನ್ಎ",
+    "definition": "The molecule that carries genetic instructions.",
+    "kannadaDefinition": "ಆನುವಂಶಿಕ ಸೂಚನೆಗಳನ್ನು ಹೊಂದಿರುವ ಅಣು.",
+    "example": "DNA has a double-helix shape.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Heredity",
+    "kannadaWord": "ಅನುವಂಶೀಯತೆ",
+    "definition": "Passing of traits from parents to offspring.",
+    "kannadaDefinition": "ಪೋಷಕರಿಂದ ಮಕ್ಕಳಿಗೆ ಗುಣಲಕ್ಷಣಗಳು ಸಾಗುವುದು.",
+    "example": "Children often look like their parents due to heredity.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Mutation",
+    "kannadaWord": "ಉತ್ಪರಿವರ್ತನೆ",
+    "definition": "A sudden change in the DNA of an organism.",
+    "kannadaDefinition": "ಜೀವಿಯ ಡಿಎನ್ಎಯಲ್ಲಿ ಉಂಟಾಗುವ ಹಠಾತ್ ಬದಲಾವಣೆ.",
+    "example": "Some mutations cause new traits.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Bacteria",
+    "kannadaWord": "ಬ್ಯಾಕ್ಟೀರಿಯಾ",
+    "definition": "Single-celled microorganisms without a nucleus.",
+    "kannadaDefinition": "ಕೋಶಕೇಂದ್ರವಿಲ್ಲದ ಏಕಕೋಶ ಸೂಕ್ಷ್ಮಜೀವಿಗಳು.",
+    "example": "Bacteria turn milk into curd.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Virus",
+    "kannadaWord": "ವೈರಸ್",
+    "definition": "A tiny infectious agent that multiplies only inside living cells.",
+    "kannadaDefinition": "ಜೀವಂತ ಕೋಶಗಳ ಒಳಗೆ ಮಾತ್ರ ಹೆಚ್ಚಾಗುವ ಸೂಕ್ಷ್ಮ ರೋಗಕಾರಕ.",
+    "example": "The common cold is caused by a virus.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Fungi",
+    "kannadaWord": "ಶಿಲೀಂಧ್ರಗಳು",
+    "definition": "Organisms such as moulds and mushrooms that feed on decaying matter.",
+    "kannadaDefinition": "ಕೊಳೆಯುತ್ತಿರುವ ವಸ್ತುಗಳನ್ನು ಆಹಾರವಾಗಿಸುವ ಅಣಬೆ ಮುಂತಾದ ಜೀವಿಗಳು.",
+    "example": "Bread mould is a fungus.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Pollination",
+    "kannadaWord": "ಪರಾಗಸ್ಪರ್ಶ",
+    "definition": "Transfer of pollen from anther to stigma.",
+    "kannadaDefinition": "ಪರಾಗಕೋಶದಿಂದ ಶಲಾಕಾಗ್ರಕ್ಕೆ ಪರಾಗ ವರ್ಗಾವಣೆ.",
+    "example": "Bees help in pollination.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Germination",
+    "kannadaWord": "ಮೊಳಕೆಯೊಡೆಯುವಿಕೆ",
+    "definition": "The process by which a seed begins to grow.",
+    "kannadaDefinition": "ಬೀಜವು ಬೆಳೆಯಲು ಪ್ರಾರಂಭಿಸುವ ಪ್ರಕ್ರಿಯೆ.",
+    "example": "Seeds need water for germination.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Transpiration",
+    "kannadaWord": "ಬಾಷ್ಪವಿಸರ್ಜನೆ",
+    "definition": "Loss of water vapour from leaves.",
+    "kannadaDefinition": "ಎಲೆಗಳಿಂದ ನೀರಾವಿ ಹೊರಹೋಗುವುದು.",
+    "example": "Transpiration cools the plant.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Osmosis",
+    "kannadaWord": "ಅಭಿಸರಣೆ",
+    "definition": "Movement of water through a semi-permeable membrane.",
+    "kannadaDefinition": "ಅರೆಪಾರಗಮ್ಯ ಪೊರೆಯ ಮೂಲಕ ನೀರಿನ ಚಲನೆ.",
+    "example": "Roots absorb water by osmosis.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Diffusion",
+    "kannadaWord": "ವಿಸರಣೆ",
+    "definition": "Movement of particles from high to low concentration.",
+    "kannadaDefinition": "ಹೆಚ್ಚು ಸಾರತೆಯಿಂದ ಕಡಿಮೆ ಸಾರತೆಯ ಕಡೆಗೆ ಕಣಗಳ ಚಲನೆ.",
+    "example": "The smell of perfume spreads by diffusion.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Vaccine",
+    "kannadaWord": "ಲಸಿಕೆ",
+    "definition": "A substance that helps the body build immunity to a disease.",
+    "kannadaDefinition": "ರೋಗದ ವಿರುದ್ಧ ರೋಗನಿರೋಧಕ ಶಕ್ತಿ ಬೆಳೆಸಲು ಸಹಾಯ ಮಾಡುವ ವಸ್ತು.",
+    "example": "The polio vaccine is given as drops.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Immunity",
+    "kannadaWord": "ರೋಗನಿರೋಧಕ ಶಕ್ತಿ",
+    "definition": "The body's ability to resist disease.",
+    "kannadaDefinition": "ರೋಗವನ್ನು ತಡೆಯುವ ದೇಹದ ಸಾಮರ್ಥ್ಯ.",
+    "example": "Good food improves immunity.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Artery",
+    "kannadaWord": "ಅಪಧಮನಿ",
+    "definition": "A blood vessel that carries blood away from the heart.",
+    "kannadaDefinition": "ಹೃದಯದಿಂದ ರಕ್ತವನ್ನು ಹೊರಗೆ ಒಯ್ಯುವ ರಕ್ತನಾಳ.",
+    "example": "The aorta is the largest artery.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Vein",
+    "kannadaWord": "ಅಭಿಧಮನಿ",
+    "definition": "A blood vessel that carries blood to the heart.",
+    "kannadaDefinition": "ರಕ್ತವನ್ನು ಹೃದಯಕ್ಕೆ ಒಯ್ಯುವ ರಕ್ತನಾಳ.",
+    "example": "Blood samples are taken from a vein.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Heart",
+    "kannadaWord": "ಹೃದಯ",
+    "definition": "The organ that pumps blood through the body.",
+    "kannadaDefinition": "ದೇಹದಾದ್ಯಂತ ರಕ್ತವನ್ನು ಪಂಪ್ ಮಾಡುವ ಅಂಗ.",
+    "example": "The human heart has four chambers.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Lungs",
+    "kannadaWord": "ಶ್ವಾಸಕೋಶಗಳು",
+    "definition": "Organs where oxygen enters and carbon dioxide leaves the blood.",
+    "kannadaDefinition": "ರಕ್ತಕ್ಕೆ ಆಮ್ಲಜನಕ ಸೇರುವ ಮತ್ತು ಇಂಗಾಲದ ಡೈಆಕ್ಸೈಡ್ ಹೊರಹೋಗುವ ಅಂಗಗಳು.",
+    "example": "Smoking damages the lungs.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Kidney",
+    "kannadaWord": "ಮೂತ್ರಪಿಂಡ",
+    "definition": "An organ that filters waste from the blood.",
+    "kannadaDefinition": "ರಕ್ತದಿಂದ ತ್ಯಾಜ್ಯವನ್ನು ಸೋಸುವ ಅಂಗ.",
+    "example": "Humans have two kidneys.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Neuron",
+    "kannadaWord": "ನರಕೋಶ",
+    "definition": "A nerve cell that carries messages in the body.",
+    "kannadaDefinition": "ದೇಹದಲ್ಲಿ ಸಂದೇಶಗಳನ್ನು ಸಾಗಿಸುವ ನರಕೋಶ.",
+    "example": "The brain has billions of neurons.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Skeleton",
+    "kannadaWord": "ಅಸ್ಥಿಪಂಜರ",
+    "definition": "The framework of bones that supports the body.",
+    "kannadaDefinition": "ದೇಹಕ್ಕೆ ಆಧಾರ ನೀಡುವ ಮೂಳೆಗಳ ಚೌಕಟ್ಟು.",
+    "example": "An adult skeleton has 206 bones.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Habitat",
+    "kannadaWord": "ಆವಾಸಸ್ಥಾನ",
+    "definition": "The natural home of a plant or animal.",
+    "kannadaDefinition": "ಸಸ್ಯ ಅಥವಾ ಪ್ರಾಣಿಯ ನೈಸರ್ಗಿಕ ವಾಸಸ್ಥಳ.",
+    "example": "The desert is the habitat of the camel.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Species",
+    "kannadaWord": "ಪ್ರಭೇದ",
+    "definition": "A group of similar organisms that can breed together.",
+    "kannadaDefinition": "ಪರಸ್ಪರ ಸಂತಾನೋತ್ಪತ್ತಿ ಮಾಡಬಲ್ಲ ಒಂದೇ ರೀತಿಯ ಜೀವಿಗಳ ಗುಂಪು.",
+    "example": "The tiger is an endangered species.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Food Chain",
+    "kannadaWord": "ಆಹಾರ ಸರಪಳಿ",
+    "definition": "A sequence showing who eats whom in nature.",
+    "kannadaDefinition": "ಪ್ರಕೃತಿಯಲ್ಲಿ ಯಾವ ಜೀವಿ ಯಾವುದನ್ನು ತಿನ್ನುತ್ತದೆ ಎಂಬ ಕ್ರಮ.",
+    "example": "Grass → deer → tiger is a food chain.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Herbivore",
+    "kannadaWord": "ಸಸ್ಯಾಹಾರಿ",
+    "definition": "An animal that eats only plants.",
+    "kannadaDefinition": "ಸಸ್ಯಗಳನ್ನು ಮಾತ್ರ ತಿನ್ನುವ ಪ್ರಾಣಿ.",
+    "example": "A cow is a herbivore.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Carnivore",
+    "kannadaWord": "ಮಾಂಸಾಹಾರಿ",
+    "definition": "An animal that eats other animals.",
+    "kannadaDefinition": "ಇತರ ಪ್ರಾಣಿಗಳನ್ನು ತಿನ್ನುವ ಪ್ರಾಣಿ.",
+    "example": "A lion is a carnivore.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Parasite",
+    "kannadaWord": "ಪರಾವಲಂಬಿ",
+    "definition": "An organism that lives on another and harms it.",
+    "kannadaDefinition": "ಇನ್ನೊಂದು ಜೀವಿಯ ಮೇಲೆ ಬದುಕಿ ಅದಕ್ಕೆ ಹಾನಿ ಮಾಡುವ ಜೀವಿ.",
+    "example": "A tapeworm is a parasite.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Fertilisation",
+    "kannadaWord": "ನಿಷೇಚನ",
+    "definition": "Fusion of male and female gametes.",
+    "kannadaDefinition": "ಗಂಡು ಮತ್ತು ಹೆಣ್ಣು ಲಿಂಗಾಣುಗಳ ಸಂಯೋಗ.",
+    "example": "Fertilisation forms a zygote.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Embryo",
+    "kannadaWord": "ಭ್ರೂಣ",
+    "definition": "An early stage of development of an organism.",
+    "kannadaDefinition": "ಜೀವಿಯ ಬೆಳವಣಿಗೆಯ ಆರಂಭಿಕ ಹಂತ.",
+    "example": "A seed contains a plant embryo.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Stomata",
+    "kannadaWord": "ಪತ್ರರಂಧ್ರಗಳು",
+    "definition": "Tiny pores on leaves for gas exchange.",
+    "kannadaDefinition": "ಅನಿಲ ವಿನಿಮಯಕ್ಕಾಗಿ ಎಲೆಗಳ ಮೇಲಿನ ಸೂಕ್ಷ್ಮ ರಂಧ್ರಗಳು.",
+    "example": "Stomata open in sunlight.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Protein",
+    "kannadaWord": "ಪ್ರೋಟೀನ್",
+    "definition": "A nutrient needed for growth and repair of the body.",
+    "kannadaDefinition": "ದೇಹದ ಬೆಳವಣಿಗೆ ಮತ್ತು ದುರಸ್ತಿಗೆ ಬೇಕಾದ ಪೋಷಕಾಂಶ.",
+    "example": "Pulses are rich in protein.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Blood",
+    "kannadaWord": "ರಕ್ತ",
+    "definition": "A fluid that carries oxygen and nutrients around the body.",
+    "kannadaDefinition": "ದೇಹದಾದ್ಯಂತ ಆಮ್ಲಜನಕ ಮತ್ತು ಪೋಷಕಾಂಶಗಳನ್ನು ಸಾಗಿಸುವ ದ್ರವ.",
+    "example": "Red blood cells carry oxygen.",
+    "subject": "Biology"
+  },
+  {
+    "englishWord": "Fraction",
+    "kannadaWord": "ಭಿನ್ನರಾಶಿ",
+    "definition": "A part of a whole, written as one number over another.",
+    "kannadaDefinition": "ಪೂರ್ಣದ ಒಂದು ಭಾಗ; ಒಂದು ಸಂಖ್ಯೆಯ ಮೇಲೆ ಇನ್ನೊಂದನ್ನು ಬರೆಯುವ ರೂಪ.",
+    "example": "1/2 is a fraction.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Decimal",
+    "kannadaWord": "ದಶಮಾಂಶ",
+    "definition": "A number with a point separating whole and fractional parts.",
+    "kannadaDefinition": "ಪೂರ್ಣ ಮತ್ತು ಭಿನ್ನ ಭಾಗಗಳನ್ನು ಬಿಂದುವಿನಿಂದ ಬೇರ್ಪಡಿಸುವ ಸಂಖ್ಯೆ.",
+    "example": "0.75 is a decimal.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Percentage",
+    "kannadaWord": "ಶೇಕಡಾ",
+    "definition": "A number expressed as a part of 100.",
+    "kannadaDefinition": "ನೂರರ ಭಾಗವಾಗಿ ವ್ಯಕ್ತಪಡಿಸಿದ ಸಂಖ್ಯೆ.",
+    "example": "She scored 90 percent.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Ratio",
+    "kannadaWord": "ಅನುಪಾತ",
+    "definition": "A comparison of two quantities by division.",
+    "kannadaDefinition": "ಎರಡು ಪರಿಮಾಣಗಳನ್ನು ಭಾಗಾಕಾರದಿಂದ ಹೋಲಿಸುವುದು.",
+    "example": "The ratio of boys to girls is 3:2.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Proportion",
+    "kannadaWord": "ಸಮಾನುಪಾತ",
+    "definition": "An equation stating that two ratios are equal.",
+    "kannadaDefinition": "ಎರಡು ಅನುಪಾತಗಳು ಸಮ ಎಂದು ಹೇಳುವ ಸಮೀಕರಣ.",
+    "example": "2:4 = 3:6 is a proportion.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Prime Number",
+    "kannadaWord": "ಅವಿಭಾಜ್ಯ ಸಂಖ್ಯೆ",
+    "definition": "A number with exactly two factors, 1 and itself.",
+    "kannadaDefinition": "1 ಮತ್ತು ತಾನೇ ಎಂಬ ಎರಡೇ ಅಪವರ್ತನಗಳಿರುವ ಸಂಖ್ಯೆ.",
+    "example": "7 is a prime number.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Factor",
+    "kannadaWord": "ಅಪವರ್ತನ",
+    "definition": "A number that divides another number exactly.",
+    "kannadaDefinition": "ಇನ್ನೊಂದು ಸಂಖ್ಯೆಯನ್ನು ನಿಶ್ಶೇಷವಾಗಿ ಭಾಗಿಸುವ ಸಂಖ್ಯೆ.",
+    "example": "3 is a factor of 12.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Multiple",
+    "kannadaWord": "ಅಪವರ್ತ್ಯ",
+    "definition": "The product of a number and any whole number.",
+    "kannadaDefinition": "ಒಂದು ಸಂಖ್ಯೆ ಮತ್ತು ಯಾವುದೇ ಪೂರ್ಣ ಸಂಖ್ಯೆಯ ಗುಣಲಬ್ಧ.",
+    "example": "15 is a multiple of 5.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "LCM",
+    "kannadaWord": "ಲ.ಸಾ.ಅ (ಲಘುತಮ ಸಾಮಾನ್ಯ ಅಪವರ್ತ್ಯ)",
+    "definition": "The smallest number that is a multiple of two or more numbers.",
+    "kannadaDefinition": "ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಸಂಖ್ಯೆಗಳ ಅತಿ ಚಿಕ್ಕ ಸಾಮಾನ್ಯ ಅಪವರ್ತ್ಯ.",
+    "example": "The LCM of 4 and 6 is 12.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "HCF",
+    "kannadaWord": "ಮ.ಸಾ.ಅ (ಮಹತ್ತಮ ಸಾಮಾನ್ಯ ಅಪವರ್ತನ)",
+    "definition": "The largest number that divides two or more numbers exactly.",
+    "kannadaDefinition": "ಎರಡು ಅಥವಾ ಹೆಚ್ಚು ಸಂಖ್ಯೆಗಳನ್ನು ನಿಶ್ಶೇಷವಾಗಿ ಭಾಗಿಸುವ ಅತಿ ದೊಡ್ಡ ಸಂಖ್ಯೆ.",
+    "example": "The HCF of 12 and 18 is 6.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Equation",
+    "kannadaWord": "ಸಮೀಕರಣ",
+    "definition": "A statement that two expressions are equal.",
+    "kannadaDefinition": "ಎರಡು ಉಕ್ತಿಗಳು ಸಮ ಎಂದು ಹೇಳುವ ಹೇಳಿಕೆ.",
+    "example": "x + 3 = 7 is an equation.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Polynomial",
+    "kannadaWord": "ಬಹುಪದೋಕ್ತಿ",
+    "definition": "An expression with variables and whole-number exponents.",
+    "kannadaDefinition": "ಚರಾಕ್ಷರಗಳು ಮತ್ತು ಪೂರ್ಣಸಂಖ್ಯಾ ಘಾತಗಳಿರುವ ಉಕ್ತಿ.",
+    "example": "x² + 2x + 1 is a polynomial.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Quadratic Equation",
+    "kannadaWord": "ವರ್ಗ ಸಮೀಕರಣ",
+    "definition": "An equation where the highest power of the variable is 2.",
+    "kannadaDefinition": "ಚರಾಕ್ಷರದ ಗರಿಷ್ಠ ಘಾತ 2 ಆಗಿರುವ ಸಮೀಕರಣ.",
+    "example": "x² − 5x + 6 = 0 is quadratic.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Coefficient",
+    "kannadaWord": "ಸಹಗುಣಕ",
+    "definition": "The number multiplied by a variable in a term.",
+    "kannadaDefinition": "ಪದದಲ್ಲಿ ಚರಾಕ್ಷರದೊಂದಿಗೆ ಗುಣಿಸಿದ ಸಂಖ್ಯೆ.",
+    "example": "In 5x, the coefficient is 5.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Exponent",
+    "kannadaWord": "ಘಾತ",
+    "definition": "The number showing how many times a base is multiplied by itself.",
+    "kannadaDefinition": "ಆಧಾರವನ್ನು ಎಷ್ಟು ಬಾರಿ ತನ್ನಿಂದಲೇ ಗುಣಿಸಬೇಕು ಎಂದು ತೋರಿಸುವ ಸಂಖ್ಯೆ.",
+    "example": "In 2³, the exponent is 3.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Square",
+    "kannadaWord": "ವರ್ಗ",
+    "definition": "A number multiplied by itself; also a shape with four equal sides.",
+    "kannadaDefinition": "ಸಂಖ್ಯೆಯನ್ನು ಅದರಿಂದಲೇ ಗುಣಿಸಿದ ಫಲ; ನಾಲ್ಕು ಸಮಬಾಹುಗಳ ಆಕೃತಿ.",
+    "example": "The square of 4 is 16.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Cube",
+    "kannadaWord": "ಘನ",
+    "definition": "A number multiplied by itself three times; also a solid with six square faces.",
+    "kannadaDefinition": "ಸಂಖ್ಯೆಯನ್ನು ಮೂರು ಬಾರಿ ಗುಣಿಸಿದ ಫಲ; ಆರು ಚೌಕ ಮುಖಗಳ ಘನಾಕೃತಿ.",
+    "example": "The cube of 3 is 27.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Angle",
+    "kannadaWord": "ಕೋನ",
+    "definition": "The figure formed by two rays meeting at a point.",
+    "kannadaDefinition": "ಒಂದು ಬಿಂದುವಿನಲ್ಲಿ ಸೇರುವ ಎರಡು ಕಿರಣಗಳಿಂದ ಆಗುವ ಆಕೃತಿ.",
+    "example": "A right angle measures 90°.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Triangle",
+    "kannadaWord": "ತ್ರಿಭುಜ",
+    "definition": "A closed shape with three sides.",
+    "kannadaDefinition": "ಮೂರು ಬಾಹುಗಳಿರುವ ಮುಚ್ಚಿದ ಆಕೃತಿ.",
+    "example": "The angles of a triangle add up to 180°.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Circle",
+    "kannadaWord": "ವೃತ್ತ",
+    "definition": "A round shape where every point is the same distance from the centre.",
+    "kannadaDefinition": "ಎಲ್ಲಾ ಬಿಂದುಗಳು ಕೇಂದ್ರದಿಂದ ಸಮ ದೂರದಲ್ಲಿರುವ ದುಂಡನೆಯ ಆಕೃತಿ.",
+    "example": "A wheel is shaped like a circle.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Radius",
+    "kannadaWord": "ತ್ರಿಜ್ಯ",
+    "definition": "Distance from the centre of a circle to its edge.",
+    "kannadaDefinition": "ವೃತ್ತದ ಕೇಂದ್ರದಿಂದ ಪರಿಧಿಯವರೆಗಿನ ದೂರ.",
+    "example": "The radius is half the diameter.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Diameter",
+    "kannadaWord": "ವ್ಯಾಸ",
+    "definition": "A straight line through the centre joining two points on a circle.",
+    "kannadaDefinition": "ಕೇಂದ್ರದ ಮೂಲಕ ವೃತ್ತದ ಎರಡು ಬಿಂದುಗಳನ್ನು ಸೇರಿಸುವ ಸರಳ ರೇಖೆ.",
+    "example": "The diameter of the plate is 20 cm.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Circumference",
+    "kannadaWord": "ಪರಿಧಿ",
+    "definition": "The distance around a circle.",
+    "kannadaDefinition": "ವೃತ್ತದ ಸುತ್ತಲಿನ ದೂರ.",
+    "example": "Circumference = 2πr.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Area",
+    "kannadaWord": "ವಿಸ್ತೀರ್ಣ",
+    "definition": "The amount of surface a shape covers.",
+    "kannadaDefinition": "ಆಕೃತಿ ಆವರಿಸುವ ಮೇಲ್ಮೈಯ ಪ್ರಮಾಣ.",
+    "example": "The area of the room is 20 m².",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Perimeter",
+    "kannadaWord": "ಸುತ್ತಳತೆ",
+    "definition": "The total length around a shape.",
+    "kannadaDefinition": "ಆಕೃತಿಯ ಸುತ್ತಲಿನ ಒಟ್ಟು ಉದ್ದ.",
+    "example": "A square of side 5 cm has a perimeter of 20 cm.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Parallel Lines",
+    "kannadaWord": "ಸಮಾಂತರ ರೇಖೆಗಳು",
+    "definition": "Lines that never meet and stay the same distance apart.",
+    "kannadaDefinition": "ಎಂದೂ ಸಂಧಿಸದೆ ಸಮ ದೂರದಲ್ಲಿರುವ ರೇಖೆಗಳು.",
+    "example": "Railway tracks are parallel lines.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Perpendicular",
+    "kannadaWord": "ಲಂಬ",
+    "definition": "Meeting at a right angle (90°).",
+    "kannadaDefinition": "ಲಂಬಕೋನದಲ್ಲಿ (90°) ಸಂಧಿಸುವ.",
+    "example": "The walls are perpendicular to the floor.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Hypotenuse",
+    "kannadaWord": "ವಿಕರ್ಣ",
+    "definition": "The longest side of a right-angled triangle.",
+    "kannadaDefinition": "ಲಂಬಕೋನ ತ್ರಿಭುಜದ ಅತಿ ಉದ್ದದ ಬಾಹು.",
+    "example": "Pythagoras' theorem relates the hypotenuse to the other sides.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Mean",
+    "kannadaWord": "ಸರಾಸರಿ",
+    "definition": "The sum of values divided by the number of values.",
+    "kannadaDefinition": "ಮೌಲ್ಯಗಳ ಮೊತ್ತವನ್ನು ಅವುಗಳ ಸಂಖ್ಯೆಯಿಂದ ಭಾಗಿಸಿದ ಫಲ.",
+    "example": "The mean of 2, 4 and 6 is 4.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Median",
+    "kannadaWord": "ಮಧ್ಯಾಂಕ",
+    "definition": "The middle value when data is arranged in order.",
+    "kannadaDefinition": "ದತ್ತಾಂಶವನ್ನು ಕ್ರಮವಾಗಿ ಜೋಡಿಸಿದಾಗ ಮಧ್ಯದ ಮೌಲ್ಯ.",
+    "example": "The median of 1, 3, 9 is 3.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Mode",
+    "kannadaWord": "ಬಹುಲಕ",
+    "definition": "The value that appears most often in data.",
+    "kannadaDefinition": "ದತ್ತಾಂಶದಲ್ಲಿ ಹೆಚ್ಚು ಬಾರಿ ಬರುವ ಮೌಲ್ಯ.",
+    "example": "The mode of 2, 2, 5 is 2.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Set",
+    "kannadaWord": "ಗಣ",
+    "definition": "A well-defined collection of objects.",
+    "kannadaDefinition": "ಸ್ಪಷ್ಟವಾಗಿ ನಿರೂಪಿಸಿದ ವಸ್ತುಗಳ ಸಂಗ್ರಹ.",
+    "example": "{1, 2, 3} is a set.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Arithmetic Progression",
+    "kannadaWord": "ಸಮಾಂತರ ಶ್ರೇಢಿ",
+    "definition": "A sequence where each term differs from the previous by a fixed amount.",
+    "kannadaDefinition": "ಪ್ರತಿ ಪದವು ಹಿಂದಿನದಕ್ಕಿಂತ ನಿರ್ದಿಷ್ಟ ಪ್ರಮಾಣದಲ್ಲಿ ಭಿನ್ನವಾಗಿರುವ ಶ್ರೇಢಿ.",
+    "example": "2, 5, 8, 11 is an arithmetic progression.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Logarithm",
+    "kannadaWord": "ಲಘುಗಣಕ",
+    "definition": "The power to which a base must be raised to get a number.",
+    "kannadaDefinition": "ಒಂದು ಸಂಖ್ಯೆಯನ್ನು ಪಡೆಯಲು ಆಧಾರವನ್ನು ಏರಿಸಬೇಕಾದ ಘಾತ.",
+    "example": "log₁₀ 100 = 2.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Coordinate",
+    "kannadaWord": "ನಿರ್ದೇಶಾಂಕ",
+    "definition": "A pair of numbers that locates a point on a plane.",
+    "kannadaDefinition": "ಸಮತಲದಲ್ಲಿ ಬಿಂದುವಿನ ಸ್ಥಾನ ತಿಳಿಸುವ ಸಂಖ್ಯೆಗಳ ಜೋಡಿ.",
+    "example": "(3, 4) is a coordinate.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Graph",
+    "kannadaWord": "ನಕ್ಷೆ",
+    "definition": "A diagram showing the relation between quantities.",
+    "kannadaDefinition": "ಪರಿಮಾಣಗಳ ನಡುವಿನ ಸಂಬಂಧ ತೋರಿಸುವ ಚಿತ್ರ.",
+    "example": "A bar graph shows marks of students.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Sum",
+    "kannadaWord": "ಮೊತ್ತ",
+    "definition": "The result of adding numbers.",
+    "kannadaDefinition": "ಸಂಖ್ಯೆಗಳನ್ನು ಕೂಡಿಸಿದಾಗ ಬರುವ ಫಲ.",
+    "example": "The sum of 4 and 5 is 9.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Product",
+    "kannadaWord": "ಗುಣಲಬ್ಧ",
+    "definition": "The result of multiplying numbers.",
+    "kannadaDefinition": "ಸಂಖ್ಯೆಗಳನ್ನು ಗುಣಿಸಿದಾಗ ಬರುವ ಫಲ.",
+    "example": "The product of 3 and 4 is 12.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Quotient",
+    "kannadaWord": "ಭಾಗಲಬ್ಧ",
+    "definition": "The result of dividing one number by another.",
+    "kannadaDefinition": "ಒಂದು ಸಂಖ್ಯೆಯನ್ನು ಇನ್ನೊಂದರಿಂದ ಭಾಗಿಸಿದಾಗ ಬರುವ ಫಲ.",
+    "example": "20 ÷ 5 gives a quotient of 4.",
+    "subject": "Math"
+  },
+  {
+    "englishWord": "Remainder",
+    "kannadaWord": "ಶೇಷ",
+    "definition": "The amount left over after division.",
+    "kannadaDefinition": "ಭಾಗಾಕಾರದ ನಂತರ ಉಳಿಯುವ ಮೊತ್ತ.",
+    "example": "17 ÷ 5 leaves a remainder of 2.",
+    "subject": "Math"
+  }
 ]
-
-// Author: E Thrinadh Chowdary
